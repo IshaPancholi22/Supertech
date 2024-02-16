@@ -1,0 +1,694 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="contactUs.aspx.cs" Inherits="contactUs" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="wpOceans" />
+    <link
+        rel="shortcut icon"
+        type="image/png"
+        href="assets/images/favicon.png" />
+    <title>Supertech Fabrics</title>
+    <link href="assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="assets/css/aboutUs.css" rel="stylesheet" />
+    <link href="assets/css/contact.css" rel="stylesheet" />
+    <link href="assets/css/header-footer.css" rel="stylesheet" />
+    <link href="assets/css/supertech-font.css" rel="stylesheet" />
+    <link href="assets/css/flaticon.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.css" rel="stylesheet" />
+    <link href="assets/css/owl.theme.css" rel="stylesheet" />
+    <link href="assets/css/slick.css" rel="stylesheet" />
+    <link href="assets/css/slick-theme.css" rel="stylesheet" />
+    <link href="assets/css/swiper.min.css" rel="stylesheet" />
+    <link href="assets/css/owl.transitions.css" rel="stylesheet" />
+    <link href="assets/css/jquery.fancybox.css" rel="stylesheet" />
+    <link href="assets/css/odometer-theme-default.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <style>
+        .captcha_label {
+            display: inline-block;
+            margin-bottom: 15px;
+            color: #000 !important;
+        }
+
+            .captcha_label span {
+                color: #e74c3c;
+                padding: 2px;
+                font-weight: 600;
+            }
+
+        .capbox {
+            background-color: #52b348;
+            border: #4f5050 0px solid;
+            border-width: 0px 0px 0px 0px;
+            display: flex;
+            padding: 5px;
+        }
+
+        .capbox-inner {
+            font: bold 11px arial, sans-serif;
+            color: #000000;
+            background-color: #ffffff;
+            margin: 1px 5px;
+            /*padding: 3px;*/
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+            flex-basis: 58%;
+        }
+
+            .capbox-inner input {
+                height: 100%;
+                width: 100%;
+                font-size:18px;
+            }
+
+        #CaptchaDiv, #CaptchaDiv1 {
+            font: bold 17px verdana, arial, sans-serif;
+            font-style: italic;
+            color: #000000;
+            background-color: #FFFFFF;
+            padding: 4px;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+        }
+
+
+        #CaptchaInput, #CaptchaDiv1 {
+            margin: 1px 0px 1px 0px;
+            width: 100%;
+            height: 30px;
+            flex-basis: 40%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- start page-wrapper -->
+    <div class="page-wrapper">
+        <!-- start preloader -->
+        <div class="preloader">
+            <div class="vertical-centered-box">
+                <div class="content">
+                    <!-- <div class="loader-circle"></div>
+            <div class="loader-line-mask">
+              <div class="loader-line"></div>
+            </div> -->
+                    <img src="assets/images/preloader.gif" alt="" />
+                </div>
+            </div>
+        </div>
+        <!-- end preloader -->
+
+        <!-- Start header -->
+        <header id="header" class="container">
+            <div class="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-md-12 col-sm-12 col-12 right-content">
+                            <div class="contact-intro">
+                                <ul>
+
+                                    <li><i class="fi flaticon-email"></i>info@supertechfabrics.com</li>
+                                    <li><a href="https://www.linkedin.com/company/supertech-fabrics/" target="_blank"><i class="ti-linkedin"></i></a></li>
+                                    <li>
+                                        <select class="lang-drpdown">
+                                            <option>EN</option>
+                                            <option>ES</option>
+                                            <option>DE</option>
+                                        </select>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end topbar -->
+            <div class="wpo-site-header">
+                <nav class="navigation navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-3 col-md-10 col-10 order-md-2 order-2 d-lg-none dl-block">
+                                <div class="mobail-menu">
+                                    <button type="button" class="navbar-toggler open-btn">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar first-angle"></span>
+                                        <span class="icon-bar middle-angle"></span>
+                                        <span class="icon-bar last-angle"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-1 col-1 order-lg-1 order-md-1 order-1 ">
+                                <div class="navbar-header">
+                                    <a class="navbar-brand" href="index.html">
+                                        <img src="assets/images/logo/site-logo.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-10 col-md-1 col-1 order-lg-2  right-content">
+                                <div id="navbar" class="collapse navbar-collapse navigation-holder">
+                                    <button class="menu-close"><i class="ti-close"></i></button>
+                                    <ul class="nav navbar-nav mb-2 mb-lg-0">
+                                        <li><a href="application-page.html">Applications</a></li>
+                                        <li><a href="technology-expertise.html">Technology + Expertise</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="sustainability.html">Sustainability</a></li>
+                                        <li class="active-link"><a href="contactPage.aspx">Contact</a></li>
+                                        <li class="d-lg-block d-none"><a href="#"><i class="ti-menu"></i></a></li>
+                                    </ul>
+
+                                </div>
+                                <!-- end of nav-collapse -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of container -->
+                </nav>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- start of wpo-about-section -->
+
+        <section class="wpo-about-section about-section-contact">
+            <div class="body-width" id="banner_sec">
+                <div class="row">
+                    <div class="col-lg-8 col-12">
+                        <img class="contact-img" src="assets/images/contact/factory.jpg" alt="img" />
+                    </div>
+
+                    <div class="col-lg-4 col-12">
+                        <div class="card-main-div">
+                            <div class="cardDiv">
+                                <div class="contact-title">
+                                    Contact Us
+                                </div>
+                                <p class="contact-subTitle">
+                                    Looking forward to speaking with you
+                                </p>
+                                <hr class="horizontalRow" />
+                                <div class="contact-title">
+                                    SALES AND CUSTOMER SERVICE
+                                </div>
+                                <p class="contact-subTitle">
+                                    For sales and/or customer service,
+                                </p>
+                                <p class="contact-subTitle">
+                                    please use the form below
+                                </p>
+                                <hr class="horizontalRow" />
+                                <div class="contact-title">
+                                    PRESS AND MEDIA
+                                </div>
+                                <p class="contact-subTitle">
+                                    media@supertechfabrics.com
+                                </p>
+                                <hr class="horizontalRow" />
+                                <div class="contact-title">
+                                    HUMAN RESOURCES
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <p class="contact-subTitle">
+                                            Mail your CV on
+
+                                        </p>
+                                        <p class="contact-subTitle">
+                                            hr@supertechfabrics.com
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <button class="currentBtn">Current Openings</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of wpo-about-section -->
+        <!-- form section -->
+        <section class="wpo-about-section about-section">
+            <div class="body-width">
+                <form class="form" method="post" runat="server" onsubmit="return checkform1(this);">
+                    <div class="form__control">
+                        <label>Name<span>*</span></label>
+                        <%--<input type="text" id="userName" />--%>
+                        <asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator5"
+                            ControlToValidate="txtName" ErrorMessage="Required"
+                            Display="Dynamic" Style="color: red;" />
+                        <asp:TextBox runat="server" ID="txtName" type="text"
+                            placeholder="Name"></asp:TextBox>
+
+                        <%--<i class="fa fa-check-circle"></i>
+                        <i class="fa fa-exclamation-circle"></i>
+                        <small>Error message</small>--%>
+                    </div>
+                    <div class="form__control">
+                        <label>Email <span>*</span></label>
+
+
+                        <asp:RequiredFieldValidator runat="server" ID="validation2"
+                            ControlToValidate="txtEmail" ErrorMessage="Required"
+                            Display="Dynamic" Style="color: red;">
+                        </asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="validation3" runat="server"
+                            ControlToValidate="txtEmail" ErrorMessage="Please enter valid email"
+                            Style="color: red;"
+                            ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"
+                            Display="Dynamic">
+                        </asp:RegularExpressionValidator>
+                        <asp:TextBox runat="server" ID="txtEmail" type="email"
+                            placeholder="Email address"></asp:TextBox>
+                    </div>
+                    <div class="form__control">
+                        <label>Company Name <span>*</span></label>
+
+
+                        <asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator6"
+                            ControlToValidate="CompanyName" ErrorMessage="Required"
+                            Display="Dynamic" Style="color: red;" />
+                        <asp:TextBox runat="server" ID="CompanyName" type="text"
+                            placeholder="Company Name"></asp:TextBox>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form__control">
+                                <label>Phone <span>*</span></label>
+                                <%--<input
+                                    type="password"
+                                    id="phone" />
+                                <i class="fa fa-check-circle"></i>
+                                <i class="fa fa-exclamation-circle"></i>
+                                <small>Error message</small>--%>
+                                <img src="assets/images/contact/india-map.jpg" class="india-icn" />
+                                <asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator1"
+                                    ControlToValidate="txtphone" ErrorMessage="Required"
+                                    Display="Dynamic" Style="color: red;" />
+                                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" Display="Dynamic" ControlToValidate="txtphone" ForeColor="Red" Style="color: red;" ValidationExpression="^(?!0|1)\d{10}$" ErrorMessage="Enter valid  mobile number"></asp:RegularExpressionValidator>
+                                <asp:TextBox runat="server" ID="txtphone" type="text"
+                                    placeholder="+91" CssClass="pl-60"></asp:TextBox>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form__control">
+                                <label>Country <span>*</span></label>
+                                <!-- <input
+            type="password"
+            placeholder="confirm password..."
+            id="confirmPassword"
+          /> -->
+                                <%--<select class="form-select">
+                                    <option>India</option>
+                                    <option>Us</option>
+
+                                </select>
+                                <i class="fa fa-check-circle"></i>
+                                <i class="fa fa-exclamation-circle"></i>
+                                <small>Error message</small>--%>
+
+                                <asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator2"
+                                    ControlToValidate="txtcountry" ErrorMessage="Required"
+                                    Display="Dynamic" Style="color: red;" />
+                                <asp:DropDownList ID="txtcountry" runat="server" placeholer="Select" Style="color: #565353;" CssClass="dropdown-option">
+                                    <asp:ListItem Value="" Selected="True" Text="Select Country"></asp:ListItem>
+                                    <asp:ListItem Value="India">India</asp:ListItem>
+                                    <asp:ListItem Value="US">US</asp:ListItem>
+                                </asp:DropDownList>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-8 col-12">
+                            <div class="form__control">
+                                <label class="commentTitle">Comments <span>*</span> </label>
+                                <br>
+                                <span class="wpcf7-form-control-wrap" data-name="your-message">
+                                    <%--<textarea rows="5" class="contactTextAera" aria-invalid="false" name="your-message"></textarea>--%>
+
+                                    <asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator3"
+                                        ControlToValidate="TextMassage" ErrorMessage="Required"
+                                        Display="Dynamic" Style="color: red;" />
+                                    <asp:TextBox runat="server" ID="TextMassage" type="text" CssClass="text_area" TextMode="MultiLine"
+                                        placeholder="Comments" class="form__message"></asp:TextBox>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+
+                            <label class="captcha_label">
+                                Enter The Captcha Here: <span>*</span>
+                            </label>
+                            <div class="capbox">
+
+                                <div id="CaptchaDiv1"></div>
+
+                                <div class="capbox-inner">
+
+
+                                    <input type="hidden" id="txtCaptcha1">
+                                    <input type="text" name="CaptchaInput" id="CaptchaInput1" size="15">
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <%--<button>Submit</button>--%>
+                    <asp:Button runat="server" CssClass="button" ID="btnSubmit" Text="Get Quote" OnClick="btnok_Click" />
+                </form>
+            </div>
+        </section>
+
+
+        <!-- Contact Us section -->
+        <section class="contact-sec-line">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-12">
+                        <p>
+                            <span>For inquiries, </span>we are at your service
+
+                        </p>
+
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <a class="get-btn" href="contactPage.aspx">Contact Us</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- end Contact Us section -->
+
+        <!-- start of wpo-site-footer-section -->
+
+
+        <footer class="wpo-site-footer">
+            <div class="wpo-upper-footer">
+                <div class="body-width">
+                    <div class="row">
+                        <div
+                            class="col col-lg-2 col-md-6 col-sm-12 col-12 align-self-center">
+                            <div class="widget about-widget">
+                                <div class="logo widget-title">
+                                    <img src="assets/images/logo/site-logo.jpg" alt="blog" />
+                                </div>
+                                <!-- <div class="widget-title">
+                            <h3>About Us</h3>
+                        </div> 
+                        <p>
+                            Technical textile company specialising in high temperature applications, Supertech Fabrics is an integrated
+                            manufacturing with capacity to handle various coatings and laminations like PTFE, Silicon, and specialised polymer
+                            formulations that help us meet the most demanding applications.
+                        </p>-->
+                            </div>
+                        </div>
+                        <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div class="widget link-widget">
+                                <div class="widget-title">
+                                    <h3>Contact</h3>
+                                </div>
+                                <p>
+                                    <span>Supertech Fabrics Pvt. Ltd.</span><br />
+                                    Block # 1401 A&B, B/h Elysium Pharma, Vil. Dabhasa, Tal.
+                  Padra,
+                                    <br />
+                                    Vadodara - 391440, Gujarat, INDIA
+                                </p>
+                                <ul class="no-list">
+                                    <li>
+                                        <span>Tel: </span><a href="tel:+916358828838">+91 6358828838 (H.O.)</a>
+                                    </li>
+                                    <li>
+                                        <span>Email: </span><a href="mailto:    info@supertechfabrics.com">info@supertechfabrics.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
+                            <div class="widget tag-widget">
+                                <div class="widget-title">
+                                    <h3>Quick Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="application-page.html">Applications</a></li>
+                                    <li><a href="index.html#products">Products</a></li>
+                                    <li><a href="technology-expertise.html">Technology + Expertise</a></li>
+                                    <li><a href="sustainability.html">Sustainability</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
+                            <div class="widget social-widget">
+                                <!-- <div class="widget-title">
+                            <h3>Social Media</h3>
+                        </div> -->
+                                <span class="footer-icons-one">
+                                    <img src="assets/images/home_page/footer-icons/CE-Logo.png" />
+                                    <img
+                                        src="assets/images/home_page/footer-icons/reach-logo.png" />
+                                </span>
+                                <br />
+                                <span class="footer-icons-two">
+                                    <img
+                                        src="assets/images/home_page/footer-icons/ISO-14001.png" />
+                                    <img
+                                        src="assets/images/home_page/footer-icons/ISO-2018.png" />
+                                    <img
+                                        src="assets/images/home_page/footer-icons/ISO-9001.png" />
+                                </span>
+                                <span class="footer-icons-three">
+                                    <a href="https://www.linkedin.com/company/supertech-fabrics/" target="_blank">
+                                        <img src="assets/images/home_page/footer-icons/linkedin.png"></a>
+                                </span>
+                                <!--<ul class="no-list">
+                            <li><a href="#"><i class="ti-linkedin"></i></a>
+                            </li>                                         
+                            </li> 
+                        </ul>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end container -->
+            </div>
+            <div class="wpo-lower-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-xs-12">
+                            <p class="copyright">
+                                Copyright &copy; 2023
+                <a href="index.html">SuperTech Fabrics</a> Designed by
+                <a href="https://www.barodaweb.com" target="_blank">Barodaweb:The e-catalogue Designer</a>. All Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- end of wpo-site-footer-section -->
+
+    <!-- end of page-wrapper -->
+
+    <!-- All JavaScript files
+    ================================================== -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugins for this template -->
+    <script src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/jquery.dlmenu.js"></script>
+    <script src="assets/js/jquery-plugin-collection.js"></script>
+    <!-- Custom script for this template -->
+    <script src="assets/js/script.js"></script>
+
+
+
+
+    <script>
+        function validateContactUs() {
+
+            var Name = document.getElementById("txtName").value;
+            var Email = document.getElementById("txtEmail").value;
+            var Phone = document.getElementById("txtContact").value;
+            var Subject = document.getElementById("txtSubject").value;
+            var Message = document.getElementById("txtMessage").value;
+            var CompanyName = document.getElementById("cmpName").value;
+            var ProductCategory = document.getElementById("category").value;
+
+
+            if ((Name == null) || (Name == "")) {
+                alert("Please Enter your Name")
+                Name.focus()
+                return false
+            }
+            else if ((Email == null) || (Email == "")) {
+                alert("Please Enter your Email ID")
+                emailID.focus()
+                return false
+            }
+            else if (echeck(Email) == false) {
+                Email.value = ""
+                Email.focus()
+                return false
+            } else if ((Phone == null) || (Phone == "")) {
+                alert("Please Enter your Phone Number")
+                Phone.focus()
+                return false
+            }
+            else if (checkInternationalPhone(Phone) == false) {
+                alert("Please Enter a Valid Phone Number")
+                Phone.value = ""
+                Phone.focus()
+                return false
+            }
+            else if ((Subject == null) || (Subject == "")) {
+                alert("Please Enter your Subject Name")
+                Subject.focus()
+                return false
+            }
+                //else if (checkInternationalSubject(Subject) == false) {
+                //    alert("Please Enter a Valid Subject Name")
+                //    Subject.value = ""
+                //    Subject.focus()
+                //    return false }
+            else if ((Message == null) || (Message == "")) {
+                alert("Please Enter your Message")
+                Message.focus()
+                return false
+            }
+            else if ((CompanyName == null) || (CompanyName == "")) {
+                alert("Please Enter your Company Name")
+                Subject.focus()
+                return false
+            }
+            else if ((ProductCategory == null) || (ProductCategory == "")) {
+                alert("Please Enter your Product Category")
+                Subject.focus()
+                return false
+            }
+            return true
+        }
+    </script>
+
+    <script type="text/javascript">
+
+        // Captcha Script
+
+        function checkform1(theform) {
+            var why = "";
+
+            if (theform.CaptchaInput1.value == "") {
+                why += "- Please Enter CAPTCHA Code.\n";
+            }
+            if (theform.CaptchaInput1.value != "") {
+
+                if (ValidCaptcha1(theform.CaptchaInput1.value) == false) {
+                    why += "- The CAPTCHA Code Does Not Match!!!!.\n";
+                }
+            }
+            if (why != "") {
+                alert(why);
+                return false;
+            }
+        }
+
+        var a = Math.ceil(Math.random() * 9) + '';
+        var b = Math.ceil(Math.random() * 9) + '';
+        var c = Math.ceil(Math.random() * 9) + '';
+        var d = Math.ceil(Math.random() * 9) + '';
+        var e = Math.ceil(Math.random() * 9) + '';
+
+        var code = a + b + c + d + e;
+        document.getElementById("txtCaptcha1").value = code;
+        // document.getElementById("CaptchaDiv").innerHTML = code;
+        document.getElementById("CaptchaDiv1").innerHTML = code;
+
+        // Validate input against the generated number
+        function ValidCaptcha1() {
+
+            var str1 = removeSpaces(document.getElementById('txtCaptcha1').value);
+            var str2 = removeSpaces(document.getElementById('CaptchaInput1').value);
+
+            if (str1 == str2) {
+                var url = window.location.href;
+                gtag_report_conversion(url);
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        // Remove the spaces from the entered and generated code
+        function removeSpaces(string) {
+            return string.split(' ').join('');
+        }
+    </script>
+    <script type="text/javascript">
+
+        // Captcha Script
+
+        function checkform(theform) {
+            var why = "";
+
+            if (theform.CaptchaInput.value == "") {
+                why += "- Please Enter CAPTCHA Code.\n";
+            }
+            if (theform.CaptchaInput.value != "") {
+                if (ValidCaptcha(theform.CaptchaInput.value) == false) {
+                    why += "- The CAPTCHA Code Does Not Match......\n";
+                }
+            }
+            if (why != "") {
+                alert(why);
+                return false;
+            }
+        }
+
+        var a = Math.ceil(Math.random() * 9) + '';
+        var b = Math.ceil(Math.random() * 9) + '';
+        var c = Math.ceil(Math.random() * 9) + '';
+        var d = Math.ceil(Math.random() * 9) + '';
+        var e = Math.ceil(Math.random() * 9) + '';
+
+        var code = a + b + c + d + e;
+        document.getElementById("txtCaptcha").value = code;
+        // document.getElementById("CaptchaDiv").innerHTML = code;
+        document.getElementById("CaptchaDiv").innerHTML = code;
+
+        // Validate input against the generated number
+        function ValidCaptcha() {
+
+            var str1 = removeSpaces(document.getElementById('txtCaptcha').value);
+            var str2 = removeSpaces(document.getElementById('CaptchaInput').value);
+
+            if (str1 == str2) {
+                var url = window.location.href;
+                gtag_report_conversion(url);
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>

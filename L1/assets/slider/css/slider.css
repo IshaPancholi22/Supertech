@@ -1,0 +1,189 @@
+.slider-green-txt{
+    z-index: 10;
+    font-family: Montserrat;
+    height: auto;
+    width: auto;
+    color: rgb(82, 179, 72) !important;
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 18px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 42px;
+    backdrop-filter: none;
+    filter: none;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+.tp-caption.large_bold_grey{
+    font-weight: 700 !important;
+}
+.tp-caption .banner1-img{
+    position: relative !important;
+    left: 20% !important;
+    width: 90% !important;
+}
+
+/*.tp-caption .img2 {
+    border: 5px solid white !important;
+    width: 66% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 145px !important;
+    left: 74% !important;
+}*/
+.tp-caption .img2 {
+    border: 5px solid white !important;
+    width: 66% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 145px !important;
+    left: 60% !important;
+}
+/*.tp-caption .img3{
+    border: 5px solid white !important;
+    width: 66% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 165px !important;
+    left: 28% !important;
+}*/
+.tp-caption .img3 {
+    border: 5px solid white !important;
+    width: 66% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 165px !important;
+    left: 18% !important;
+}
+/*.tp-caption .img1 {
+    border: 5px solid white !important;
+    width: 80% !important;
+    height: auto !important;
+    position: relative !important;
+    bottom: 149px !important;
+    left: 17% !important;
+}*/
+.tp-caption .img1 {
+    border: 5px solid white !important;
+    width: 97% !important;
+    height: auto !important;
+    position: relative !important;
+    bottom: 149px !important;
+    left: 21% !important;
+}
+
+/* ============== RESPONSIVNESS SLIDER ==================== */
+@media screen and (min-width:482px){
+    .mobile-slider{
+        display: none !important;
+    }
+    .original-slider{
+        display: block !important;
+    }
+}
+@media screen and (max-width:481px){
+    .mobile-slider{
+        display: block !important;
+    }
+    .original-slider{
+        display: none !important;
+    }
+}
+
+
+/* ============== MOBILE SLIDER ==================== */
+
+.carousel-item.active .mobile-slider {
+    max-width: 100%;
+    /* height: 480px; */
+}
+.top-text{
+    top:130px !important;
+}
+.top-text-two{
+    top:80px !important;
+}
+@media (min-width:482px) and (max-width:991px){
+    .slider-green-txt {
+        line-height: 30px;
+        letter-spacing: 0px;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .tp-caption .img1 {
+        border: 3px solid white !important;
+        width: 59% !important;
+        height: auto !important;
+        position: relative !important;
+        bottom: 68px !important;
+        left: 30% !important;
+    }
+    .tp-caption .img3 {
+        border: 5px solid white !important;
+        width: 50% !important;
+        height: auto !important;
+        position: relative !important;
+        top: 78px !important;
+        left: -8% !important;
+    }
+    .tp-caption .img2 {
+        border: 5px solid white !important;
+        width: 26% !important;
+        height: auto !important;
+        position: relative !important;
+        top: 67px !important;
+        left: 78% !important;
+    }
+    .tp-caption .banner1-img {
+        position: relative !important;
+        left: 41% !important;
+        width: 111% !important;
+    }
+}
+@media (min-width:767px) and (max-width:991px){
+    .tp-caption .img1 {
+    border: 3px solid white !important;
+    width: 67% !important;
+    height: auto !important;
+    position: relative !important;
+    bottom: 98px !important;
+    left: 25% !important;
+}
+    .tp-caption .img3 {
+    border: 5px solid white !important;
+    width: 50% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 118px !important;
+    left: -52% !important;
+}
+    .tp-caption .img2 {
+    border: 5px solid white !important;
+    width: 43% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 106px !important;
+    left: 83% !important;
+}
+    .tp-caption .banner1-img {
+    position: relative !important;
+    left: 39% !important;
+    width: 65% !important;
+    /* top: 20px !important; */
+    height: auto !important;
+}
+    .top-text {
+    top: 80px !important;
+}
+    .top-text-two {
+    top: 20px !important;
+}
+}

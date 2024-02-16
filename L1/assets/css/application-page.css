@@ -1,0 +1,240 @@
+/*.app-gadgets {
+    width: auto;
+    padding: 20px;
+    position: absolute;
+    left: 49%;
+    top: 7%;
+    background-color: #333132;
+}*/
+.banner-img {
+    position:relative;
+}
+.banner-img .banner-text{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 10px 100px;
+    width: 100%;
+    background: #313131b5;
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+}
+.banner-img .banner-text h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: -2px -3px 4px black;
+}
+
+.padding-img {
+    padding-right: 0;
+    text-align:center;
+}
+.padding-img p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
+header .wpo-site-header #navbar > ul > li:last-of-type a{
+    padding:10px 0px 9px 15px !important
+}
+.app-gadgets {
+        padding: 20px 0;
+        margin-top:20px;
+    }
+.header-part {
+    margin-left: 0px;
+}
+
+    .header-part h1 {
+        color: #53af47 !important;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 34px;
+    }
+
+.head-sub-text {
+    font-size: 28px;
+    /*font-weight: 100;*/
+     font-weight: bold;
+    font-family: 'Open Sans';
+    line-height: inherit;
+    /*color: #333132 !important;*/
+    color: #000000 !important;
+
+
+}
+.half-width-hr {
+    border: none;
+    border-top: 1px solid #52b348;
+    width: 100%;
+    color: white;
+    opacity: 7;
+    height: 2px !important;
+}
+
+.app-row {
+    width: 100% !important;
+}
+
+    .app-row img {
+        height: auto !important;
+        width: 100% !important;
+    }
+    /*.app-row img {
+        height: 120px !important;
+        max-width: 180px !important;
+    }*/
+
+.mid-section {
+    margin-top: 190px;
+}
+
+/*.card-body {
+    background: #333132 !important;
+    text-align: center !important;
+    color: #fff !important;
+    padding: 13px 10px;
+}*/
+.card{
+    position:relative;
+}
+.card-body {
+    color: #fff !important;
+    padding: 13px 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.card:hover .card-body h5{
+    display:none;
+}
+    .card-body h5 {
+        color: white !important;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Open Sans';
+        margin-bottom: 0;
+    }
+
+        .card-body h5 a {
+            color: #fff;
+        }
+
+.card img {
+        height: auto;
+    width: 100%;
+    /*filter: grayscale(1);*/
+}
+.card .card-img-top:hover,
+.card:hover a .card-img-top {
+   opacity:0.3
+}
+.card .card-text{
+    position: absolute;
+    color: #000;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    display:none;
+}
+.card:hover .card-text{
+    position: absolute;
+    color: #000;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    display:block;
+}
+.card {
+    margin-bottom: 50px;
+}
+
+.app-container {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width:991px) and (min-width:768px) {
+    .card-img-bbv {
+        width: 100%;
+    }
+
+
+    .app-gadgets {
+        width: auto;
+        padding: 20px;
+        position: relative;
+        left: 0;
+        top: 0;
+        
+    }
+    
+
+    .app-container {
+        margin-bottom: 0;
+    }
+
+    .mid-section {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:767px) {
+
+    .card-img-bbv {
+        width: 100%;
+    }
+    .card-body h5 {
+    font-size: 14px;
+}
+
+    .header-part {
+        margin-left: 0px;
+    }
+
+    .head-sub-text {
+        font-size: 20px;
+    }
+
+    .header-part h1 {
+        font-size: 26px;
+    }
+
+
+    .app-gadgets {
+        width: auto;
+        margin: 0;
+        padding: 20px;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+   
+
+    .app-row img {
+        height: auto !important;
+        max-width: 70% !important;
+    }
+
+    .app-row {
+        width: 100% !important;
+        text-align:center;
+    }
+
+    .app-container {
+        margin-bottom: 0px;
+    }
+
+    .mid-section {
+        margin-top: 40px;
+    }
+
+    
+    .card-body {
+    height: 65px;
+}
+    section.contact-sec-line {
+    margin-top: 0px !important;
+}
+}

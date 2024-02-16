@@ -1,0 +1,176 @@
+
+
+.about-section {
+    padding: 70px 0px;
+}
+
+/* .about-img {
+    padding-bottom: 50px;
+} */
+
+.superTechTitle {
+    font-size: 11px;
+    color: #888;
+    font-weight: 400;
+    text-transform: uppercase;
+    flex-basis: 21%;
+}
+
+    .superTechTitle:hover {
+        text-decoration: underline;
+        color: #888;
+    }
+
+.next-section {
+    padding-top: 40px;
+}
+
+.superTechTitleAboutCompany {
+    font-size: 11px;
+    color: #888;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.next-section-div {
+    border-bottom: 1px solid #888;
+}
+
+.abutParegraph {
+    font-family: "Open Sans";
+    color: #222222;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.grup-section-main-div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-logo-img {
+    width: 120px;
+    height: auto;
+}
+
+.img-div-section {
+    padding-right: 15px;
+    text-align: center;
+}
+
+.groupDescription {
+    font-size: 19px;
+    line-height: 30px;
+    /* border-left: 2px solid #52b348; */
+    position: relative;
+    padding: 0px 10px;
+    bottom: 2px;
+    font-weight: bold;
+    color: #222;
+    flex-basis: 76%;
+    font-family: 'Montserrat' !important;
+    text-align: center;
+}
+
+.about-section .wpo-contact-section-wrapper .wpo-contact-content h2, .about-section .wpo-section-title h2 {
+    left: 0px;
+    font-family: 'Montserrat' !important;
+    color: #55b047 !important;
+    font-size: 36px;
+    padding: 0 !important;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 480px) {
+    .groupDescription {
+        font-size: 10px !important;
+        line-height: 31px !important;
+    }
+
+    .about-section {
+        padding: 0px 0px;
+    }
+
+    .card-main-div {
+        position: relative;
+        right: 256px;
+        /* top: 55px; */
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .about-section .wpo-contact-section-wrapper .wpo-contact-content h2, .about-section .wpo-section-title h2 {
+        font-size: 28px;
+    }
+
+    .abutParegraph {
+        font-size: 15px;
+    }
+    .groupDescription {
+    font-size: 15px !important;
+    line-height: 20px !important;
+}
+}
+
+.wpo-section-title h2:before {
+    display: none;
+}
+
+.wpo-section-title {
+    margin-bottom: 20px;
+}
+
+
+.about-tile {
+    font-size: 20px !important;
+    color: #52b348;
+    line-height: 31px;
+    font-weight: 700;
+}
+
+.page-title-section{
+    background: #0000007a;
+    padding: 10px;
+    color: #fff;
+}
+
+.page-title-section h3{
+    color: #fff;
+}
+
+.title-section{
+    position: relative;
+    bottom: 59px;
+}
+.wpo-about-section{
+    position: relative;
+}
+.brown-lay {
+    background-color: #eee;
+    padding: 30px;
+}
+.banner-img {
+    position:relative;
+}
+.banner-img .banner-text{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 10px 100px;
+    width: 100%;
+    background: #313131b5;
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+}
+.banner-img .banner-text h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: -2px -3px 4px black;
+}
+.about-sec {
+    margin: 70px 0;
+}

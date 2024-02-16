@@ -1,0 +1,387 @@
+.contact-img {
+    /* width: 60%; */
+}
+.about-section-contact {
+    padding: 0px 0px 70px 0px;
+}
+
+.cardDiv {
+    width: 100%;
+    background: #333132;
+    padding: 20px 30px;
+}
+
+.india-icn{
+    width: 35px;
+    height: auto;
+    position: relative;
+    top: 37px;
+    left: -55px;
+}
+.pl-60{
+    padding-left:60px !important;
+}
+.contact-title {
+    color: #52b348;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 35px;
+    padding: 10px 0;
+}
+
+.contact-subTitle {
+    color: #eee;
+    margin-bottom: 0px;
+    font-size: 14px;
+    padding-bottom: 10px;
+    line-height: 11px;
+}
+
+.currentBtn {
+    border: 1px solid #52b348;
+    color: #fff;
+    bottom: 25px;
+    margin: 0px 0px 0px 30px;
+    background-color: #333132;
+    padding: 7px;
+}
+
+    .currentBtn:hover {
+        border: 1px solid #ffffff;
+        color: #525252;
+        bottom: 25px;
+        margin: 0px 0px 0px 30px;
+        background-color: #fff;
+        padding: 7px;
+        text-decoration: none;
+    }
+
+.horizontalRow {
+    margin: 15px 0px;
+    color: #ababab;
+    height: 2px !important;
+    opacity: 1;
+}
+
+.card-main-div {
+    position: relative;
+    right: 135px;
+    top: 85px;
+    width: 140%;
+}
+
+.header {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+    .header h2 {
+        margin: 0;
+    }
+
+.form__control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-select {
+    padding: 9px !important;
+}
+
+.form__control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #000 !important;
+}
+
+    .form__control label span {
+        color: #e74c3c;
+        padding: 2px;
+        font-weight: 600;
+    }
+
+.form__control input {
+    border: 0;
+    border-bottom:1px solid #000;
+    /*border-radius: 4px;*/
+    background-color: #f2f2f2;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    width: 100%;
+    padding: 14px;
+    outline-color: #f37335;
+}
+.form-select{
+    border: 0;
+    border-bottom:1px solid #000;
+    /*border-radius: 4px;*/
+    background-color: #f2f2f2 !important;
+    display: block;
+    font-family: inherit;
+    font-size: 14px !important;
+    width: 100%;
+    /*padding: 14px !important;*/
+    padding: 14px 14px 14px 80px !important;
+    outline-color: #f37335;
+}
+
+textarea{
+    border: 0;
+    border-bottom:1px solid #000 !important;
+    /*border-radius: 4px;*/
+    background-color: #f2f2f2 !important;
+    display: block;
+    font-family: inherit;
+    font-size: 14px !important;
+    width: 100%;
+    /*padding: 55px;*/
+    outline-color: #f37335;
+}
+
+.contactTextAera {
+    width: 100%;
+}
+
+.form__control.success input {
+    border-color: #2ecc71;
+}
+
+.commentTitle {
+    color: #000;
+}
+
+.form__control.error input {
+    border-color: #e74c3c;
+}
+
+.form__control i {
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+.form__control.success i.fa-check-circle {
+    visibility: visible;
+    color: #2ecc71;
+}
+
+.form__control.error i.fa-exclamation-circle {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.form__control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.form__control.error small {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form button ,.form .button {
+    background-color: #52b348;
+    border: 2px solid #52b348;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+form .dropdown-option {
+    font-style: normal !important;
+    background: url(../dropdown.png) no-repeat right center !important;
+    display: inline-block !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    cursor: pointer !important;
+    padding: 10px;
+    border-color: #bfbfbf;
+    border-radius: 0;
+    outline: 0;
+    box-shadow: none;
+    color: #595959;
+     width: 100%;
+}
+
+.text_area {
+    border-color: #bfbfbf !important;
+    border-radius: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    color: #595959 !important;
+    font-style: normal !important;
+    width: 100%;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-main-div {
+        right: 0px;
+    }
+    .card-main-div {
+    top: 10px;
+     width: 100%; 
+}
+    .about-section-contact {
+    padding: 0px 0px 0px 0px;
+}
+    section.contact-sec-line{
+        margin-top:0 !important;
+    }
+    .capbox {
+           margin-bottom: 20px;
+        }
+}
+
+.contact-left-content h4{
+    font-family: 'Montserrat' !important;
+    color: #fff;
+}
+.contact-right-content a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 23px;
+    border: 1px solid #fff;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.first-section{
+    background-color: #303539 !important;
+    padding: 38px;
+    display: block;
+}
+.custom-font-size{
+    font-size:15px;
+}
+
+.text-right{
+    text-align:right;
+}
+
+.text-center{
+    text-align:center;
+}
+
+@media (min-width: 991px){
+    .contact-left-content{
+        padding-left:20px;
+    }
+}
+.align-items-center{
+    align-items:center;
+}
+
+.second-section h2{
+    font-family: 'Montserrat' !important;
+}
+.second-section p{
+    font-family: 'Montserrat' !important;
+    font-weight:500;
+    letter-spacing:1.4px;
+    color:#000;
+}
+
+.second-section h2{
+    font-family: 'Montserrat' !important;
+    color: #52b348;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.mt-30{
+    margin-top:30px;
+}
+
+.mt-40{
+    margin-top:40px;
+}
+
+.third-section h1,h2,h3,h4,h5{
+    font-family: 'Montserrat' !important;
+}
+
+.third-section h3{
+    color: #52b348 !important;
+    font-size:20px !important;
+}
+.third-section p {
+    margin-bottom: 0px;
+    color: #e0dede;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Open Sans';
+}
+
+hr{
+    width:19%;
+    height:2px !important;
+    margin: 30px 0px;
+    color:#fff;
+    opacity:1;
+}
+.right-section{
+    padding: 25px 30px 80px 30px;
+    background-color: #333132;
+    margin-top:27px;
+}
+.fifth-part{
+    background-color: #52b348;
+    padding: 35px 164px;
+}
+
+.fifth-part a{
+        color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 11px;
+}
+
+.mt-35{
+    margin-top:35px;
+}
+
+.submit-button a{
+    background-color: #52b348;
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.mb-60{
+    margin-bottom:60px;
+}
+
+.form-select:before{
+    background-image:url(../images/contact/india-map.jpg);
+}
+
+.contact-india-flag{
+    width: 35px;
+    height: auto;
+    position: relative;
+    top: 37px;
+    left: -69px;
+}
+
+.submit-button{
+    background-color: #52b348;
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: 700;
+    border-radius: 5px;
+}
