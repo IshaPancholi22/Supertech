@@ -12,15 +12,7 @@
 .padding-app{
     padding:50px 0;
 }
-.col-5-new {
-    flex: 0 0 auto;
-    width: 21%;
-}
 
-.col-23-new {
-    flex: 0 0 auto;
-    width: 23%;
-}
 
 .w-65 {
     max-width: 65%;
@@ -32,6 +24,7 @@
 
 .img-width {
     max-width: 100%;
+    width:100%
 }
 
 .boxedcontainer {
@@ -867,5 +860,89 @@ p, h1, h2, h3, h4, h5, h6 {
 @media (min-width:991px) {
     .w-lg-90 {
         width: 90%;
+    }
+}
+
+@media (max-width:576px){
+    .dark-sec{
+        padding: 10px 0 !important;
+    }
+    .wpo-section-title h3{
+        font-size: 17px;
+    }
+
+    .tp-caption .img1 {
+        
+        bottom: 30px !important;
+        left: 20% !important;
+    }
+    .new-sec .new-row .border-left-sec {
+        border-left: 0px solid #757575;
+        padding-left: 15px;
+    }
+    .app-d-flex .app-basis-two {
+        flex-basis: 100%;
+    }
+    .app-d-flex .app-basis-one {
+        flex-basis: 100%;
+    }
+    .last-section .brochure-btn {
+        font-size: 16px !important;
+    }
+    .img-left .wpo-contact-section-wrapper .wpo-contact-content {
+        margin-top: 40px;
+        padding-left: 20px;
+    }
+}
+
+@media (min-width:576px) and (max-width:991px){
+    .wpo-section-title h3{
+        font-size: 28px;
+    }
+    .dark-sec{
+        padding: 10px 0 !important;
+    }
+    .tp-caption .img1 {
+       
+        left: 20% !important;
+    }
+    .new-sec .new-row .border-left-sec {
+        border-left: 0px solid #757575;
+        padding-left: 15px;
+    }
+    .app-d-flex .app-basis-two {
+        flex-basis: 100%;
+    }
+    .app-d-flex .app-basis-one {
+        flex-basis: 100%;
+    }
+    .last-section .brochure-btn {
+        font-size: 16px !important;
+    }
+    .img-left .wpo-contact-section-wrapper .wpo-contact-content {
+        margin-top: 40px;
+        padding-left: 20px;
+    }
+    .more-btn-row {
+        width: 60%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1999px){
+    .tp-caption .img1 {
+       
+        left: 60% !important;
+    }
+}
+
+@media (min-width:991px){
+    .col-5-new {
+        flex: 0 0 auto;
+        width: 21%;
+    }
+    
+    .col-23-new {
+        flex: 0 0 auto;
+        width: 23%;
     }
 }

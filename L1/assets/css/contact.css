@@ -337,9 +337,12 @@ hr{
     background-color: #333132;
     margin-top:27px;
 }
-.fifth-part{
+.fifth-part {
     background-color: #52b348;
-    padding: 35px 164px;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fifth-part a{
@@ -384,4 +387,16 @@ hr{
     padding: 10px 30px;
     font-weight: 700;
     border-radius: 5px;
+}
+.resp-width {
+    width: 100%;
+}
+@media (max-width: 576px) {
+    .contact-left-content {
+        margin-bottom: 18px;
+    }
+
+    .custom-font-size {
+        font-size: calc(1.275rem + .3vw);
+    }
 }

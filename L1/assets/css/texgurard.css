@@ -278,7 +278,7 @@ p {
   .imgSectionDiv {
     display: flex;
     position: relative;
-    top: -66px;
+    top: -45px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -289,9 +289,11 @@ p {
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .gardImg {
-    max-height: 161px;
+    max-height: 260px;
   }
-
+  .main-div-img {
+    display: inline-block;
+}
   .imgSectionDiv {
     left: 78px;
   }
@@ -416,4 +418,77 @@ h3{
     padding: 10px 24px;
     font-weight: 700 !important;
     border: 1px solid #fff;
+}
+
+
+@media (max-width:576px){
+  .dark-sec{
+      padding: 10px 0 !important;
+  }
+  .wpo-section-title h3{
+      font-size: 17px !important;
+  }
+  .wpo-section-title h4{
+      font-size: 17px !important;
+  }
+  .wpo-section-title.mt-40{
+      margin-top: 0;
+  }
+  .tp-caption .img1 {
+      left: 20% !important;
+      width: 60% !important;
+      bottom: 60px !important;
+  }
+  .last-section .brochure-btn {
+      font-size: 16px !important;
+  }
+  section.contact-sec-line {
+    padding: 15px !important;
+    background-color: #52b348;
+    margin-top: 80px;
+}
+.contact-sec-line p {
+    padding-left: 0 !important;
+    margin-bottom: 30px;
+}
+.contact-sec-line p span {
+    font-size: 20px !important;
+}
+}
+
+@media (min-width:576px) and (max-width:991px){
+  .wpo-section-title h3{
+      font-size: 28px;
+  }
+  .dark-sec{
+      padding: 10px 0 !important;
+  }
+  .tp-caption .img1 {
+      left: 20% !important;
+      width: 50% !important;
+      bottom: 60px !important;
+  }
+  section.contact-sec-line {
+    padding: 15px !important;
+    background-color: #52b348;
+    margin-top: 80px;
+}
+.contact-sec-line p {
+    padding-left: 0 !important;
+    margin-bottom: 30px;
+}
+.contact-sec-line p span {
+    font-size: 20px;
+}
+.contact-sec-line p span {
+        font-size: 20px !important;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1999px){
+  .tp-caption .img1 {
+     
+      left: 60% !important;
+  }
 }

@@ -243,7 +243,7 @@ p.para-right {
         padding: 0 20px;
     }
     .img-left {
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
         display: block;
     }
@@ -379,10 +379,89 @@ p.para-right {
     font-weight: 700 !important;
     border: 1px solid #fff;
 }
-.mt-40{
-    margin-top:40px;
-}
+
 
 .mb-90{
     margin-bottom:90px;
+}
+
+@media (max-width:576px){
+    .dark-sec{
+        padding: 10px 0 !important;
+    }
+    .wpo-section-title h3{
+        font-size: 17px !important;
+    }
+    .wpo-section-title h4{
+        font-size: 17px !important;
+    }
+    .wpo-section-title.mt-40{
+        margin-top: 0;
+    }
+    .tp-caption .img1 {
+        left: 20% !important;
+        width: 60% !important;
+        bottom: 60px !important;
+    }
+    .last-section .brochure-btn {
+        font-size: 16px !important;
+    }
+    section.contact-sec-line {
+        padding: 15px;
+        background-color: #52b348;
+        margin-top: 80px;
+    }
+    .contact-sec-line p {
+        padding-left: 0 !important;
+        margin-bottom: 30px;
+    }
+    .contact-sec-line p span {
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width:576px) and (max-width:991px){
+    .wpo-section-title h3{
+        font-size: 28px;
+    }
+    .dark-sec{
+        padding: 10px 0 !important;
+    }
+    .tp-caption .img1 {
+        left: 20% !important;
+        width: 50% !important;
+        bottom: 60px !important;
+    }
+    .last-section .brochure-btn {
+        font-size: 16px !important;
+    }
+    section.contact-sec-line {
+        padding: 15px;
+        background-color: #52b348;
+        margin-top: 80px;
+    }
+    .contact-sec-line p {
+        padding-left: 0 !important;
+        margin-bottom: 30px;
+    }
+    .contact-sec-line p span {
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width:992px) and (max-width:1999px){
+    .tp-caption .img1 {
+       
+        left: 60% !important;
+    }
+}
+
+@media (min-width:991px){
+    .mt-40{
+        margin-top:40px;
+    }
+}
+
+.mt-40{
+    margin-top:0px;
 }

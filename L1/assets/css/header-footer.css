@@ -529,3 +529,7 @@ select.lang-drpdown option {
 header .wpo-site-header #navbar > ul > li:last-of-type a {
     padding: 10px 0px 9px 15px !important;
 }
+
+.resp-width {
+    width: 100%;
+}

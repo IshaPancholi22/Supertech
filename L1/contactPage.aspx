@@ -58,7 +58,7 @@
         <header id="header" class="container-fluid p-0">
 
             <div class="topbar">
-                <div class="body-width">
+                <div class="body-width resp-width">
                     <div class="row">
                         <div class="col col-md-12 col-sm-12 col-12 right-content">
                             <div class="contact-intro">
@@ -82,7 +82,7 @@
 
             <div class="wpo-site-header">
                 <nav class="navigation navbar navbar-expand-lg navbar-light">
-                    <div class="body-width">
+                    <div class="body-width resp-width">
                         <div class="row align-items-center">
                             <div class="col-lg-3 col-md-10 col-10 order-md-2 order-2 d-lg-none dl-block">
                                 <div class="mobail-menu">
@@ -159,7 +159,7 @@
         <section class="wpo-about-section about-section mt-40 mb-60 third-section">
             <div class="body-width">
                 <div class="row">
-                    <div class="col-lg-6 col-6">
+                    <div class="col-lg-6  col-12">
                         <form class="form" method="post" runat="server">
                     <asp:ScriptManager ID="ScriptManager1"
                                         runat="server">
