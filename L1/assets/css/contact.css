@@ -247,15 +247,16 @@ form .dropdown-option {
 }
 
 .contact-left-content h4{
-    font-family: 'Montserrat' !important;
+    /*<!-- font-family: 'Montserrat' !important;--> */  font-family: "Helvetica";
     color: #fff;
+    font-size: 20px;
 }
 .contact-right-content a{
     color: #fff;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 20px;
     border: 1px solid #fff;
-    padding: 10px;
+    padding: 10px 24px;
     letter-spacing: 2px;
 }
 .first-section{
@@ -285,20 +286,23 @@ form .dropdown-option {
 }
 
 .second-section h2{
-    font-family: 'Montserrat' !important;
+    /*<!-- font-family: 'Montserrat' !important;--> */  font-family: "Helvetica";
 }
 .second-section p{
-    font-family: 'Montserrat' !important;
+    /*<!-- font-family: 'Montserrat' !important;--> */  font-family: "Helvetica";
     font-weight:500;
     letter-spacing:1.4px;
+    font-size: 15px;
+    line-height: 25px;
     color:#000;
+    margin: 0;
 }
 
 .second-section h2{
-    font-family: 'Montserrat' !important;
+    /*<!-- font-family: 'Montserrat' !important;--> */  font-family: "Helvetica";
     color: #52b348;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .mt-30{
@@ -310,7 +314,7 @@ form .dropdown-option {
 }
 
 .third-section h1,h2,h3,h4,h5{
-    font-family: 'Montserrat' !important;
+    /*<!-- font-family: 'Montserrat' !important;--> */  font-family: "Helvetica";
 }
 
 .third-section h3{
@@ -322,7 +326,7 @@ form .dropdown-option {
     color: #e0dede;
     font-size: 17px;
     font-weight: 200;
-    font-family: 'Open Sans';
+    /*<!--    font-family: 'Open Sans';--> */  font-family: "Helvetica";
 }
 
 hr{
@@ -399,4 +403,14 @@ hr{
     .custom-font-size {
         font-size: calc(1.275rem + .3vw);
     }
+}
+
+.contact-right-content a:hover {
+    color: #303539;
+    font-weight: 600;
+    font-size: 20px;
+    border: 1px solid #303539;
+    padding: 10px 38px;
+    letter-spacing: 2px;
+    background: #fff;
 }

@@ -17,11 +17,12 @@
     width: 100%;
     background: #313131b5;
     margin-bottom: 0;
-    font-family: 'Montserrat';
+    /* <!--    font-family: 'Montserrat';-->   */
+    font-family: "Helvetica";
 }
 .banner-img .banner-text h1 {
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     text-shadow: -2px -3px 4px black;
 }
@@ -31,7 +32,7 @@
     text-align:center;
 }
 .padding-img p {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     color: #000;
 }
@@ -48,16 +49,18 @@ header .wpo-site-header #navbar > ul > li:last-of-type a{
 
     .header-part h1 {
         color: #53af47 !important;
-        font-family: 'Montserrat';
+        /* <!--    font-family: 'Montserrat';-->   */
+        font-family: "Helvetica";
         font-weight: 600;
         font-size: 34px;
     }
 
 .head-sub-text {
-    font-size: 28px;
+    font-size: 30px;
     /*font-weight: 100;*/
      font-weight: bold;
-    font-family: 'Open Sans';
+    /* <!--    font-family: 'Open Sans';-->   */
+    font-family: "Helvetica";
     line-height: inherit;
     /*color: #333132 !important;*/
     color: #000000 !important;
@@ -111,9 +114,11 @@ header .wpo-site-header #navbar > ul > li:last-of-type a{
 }
     .card-body h5 {
         color: white !important;
-        font-size: 18px;
+        font-size: 15px;
+        line-height: 25px;
         font-weight: 600;
-        font-family: 'Open Sans';
+        /* <!--    font-family: 'Open Sans';-->   */
+        font-family: "Helvetica";
         margin-bottom: 0;
     }
 
@@ -143,6 +148,7 @@ header .wpo-site-header #navbar > ul > li:last-of-type a{
     color: #000;
     padding: 30px;
     font-size: 15px;
+    line-height: 25px;
     font-weight: 600;
     display:block;
 }
@@ -258,7 +264,8 @@ header .wpo-site-header #navbar > ul > li:last-of-type a{
         width: 100%;
         background: #313131;
         margin-bottom: 0;
-        font-family: 'Montserrat';
+        /* <!--    font-family: 'Montserrat';-->   */
+        font-family: "Helvetica";
     }
 }
 
@@ -275,7 +282,8 @@ header .wpo-site-header #navbar > ul > li:last-of-type a{
         width: 100%;
         background: #313131;
         margin-bottom: 0;
-        font-family: 'Montserrat';
+        /* <!--    font-family: 'Montserrat';-->  */
+         font-family: "Helvetica";
     }
 }
 
@@ -287,7 +295,8 @@ header .wpo-site-header #navbar > ul > li:last-of-type a{
         border: 2px solid transparent !important;
         font-weight: 400 !important;
         font-size: 16px !important;
-        font-family: 'Montserrat' !important;
+        /* <!-- font-family: 'Montserrat' !important;-->  */
+         font-family: "Helvetica";
     }
     .banner-img .banner-text {
         position: absolute;
@@ -297,7 +306,8 @@ header .wpo-site-header #navbar > ul > li:last-of-type a{
         width: 100%;
         background: #313131;
         margin-bottom: 0;
-        font-family: 'Montserrat';
+        /* <!--    font-family: 'Montserrat';-->   */
+        font-family: "Helvetica";
     }
     .app-gadgets {
         padding: 20px 47px 0 17px;
@@ -306,7 +316,7 @@ header .wpo-site-header #navbar > ul > li:last-of-type a{
     /* .body-width {
         width: 1060px !important;
         margin: 0 auto;
-        font-family: 'Montserrat' !important;
+        <!-- font-family: 'Montserrat' !important;-->  font-family: "Helvetica";
         padding: 0px 53px 0px 20px;
     } */
 
@@ -316,4 +326,75 @@ header .wpo-site-header #navbar > ul > li:last-of-type a{
 
 .resp-width{
     width: 100%;
+}
+.contact-sec-line .get-btn {
+    color: #fff;
+    font-size: 22px !important;
+    padding: 10px 24px;
+    font-weight: 700 !important;
+    border: 1px solid #fff;
+}
+.contact-sec-line .get-btn:hover {
+    color: #fff;
+    padding: 10px 38px;
+    background-color: #474545;
+    border: 1px solid #474545;
+}
+.contact-sec-line p span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+.nav-pills-custom .nav-link {
+    color: #000;
+    font-size: 15px;
+    line-height: 25px;
+    background: #fff;
+    font-weight: 700;
+    position: relative;
+}
+
+.nav-pills-custom .nav-link.active {
+    color: #52b348 ;
+    font-weight: 700;
+    background: #fff;
+}
+
+.app-sec-new .tab-content{
+    position: sticky;
+    top: 100px;
+    margin-bottom: 1rem!important;
+}
+/* Add indicator arrow for the active tab */
+@media (min-width: 992px) {
+    .nav-pills-custom .nav-link::before {
+        content: '';
+        display: block;
+        border-top: 8px solid transparent;
+        border-left: 10px solid #fff;
+        border-bottom: 8px solid transparent;
+        position: absolute;
+        top: 50%;
+        right: -10px;
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+}
+
+.nav-pills-custom .nav-link.active::before {
+    opacity: 1;
+}
+
+.tab-content .tab-pane .row{
+    align-items: center;
+}
+.tab-content .tab-pane h4{
+    font-size: 30px;
+    color: #52b348;
+}
+
+.app-sec-new{
+    padding-bottom:70px ;
 }

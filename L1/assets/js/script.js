@@ -381,42 +381,82 @@
         = STICKY HEADER
     -------------------------------------------*/
 
-    // Function for clone an element for sticky menu
-    function cloneNavForSticyMenu($ele, $newElmClass) {
-        $ele.addClass('original').clone().insertAfter($ele).addClass($newElmClass).removeClass('original');
-    }
+    // // Function for clone an element for sticky menu
+    // function cloneNavForSticyMenu($ele, $newElmClass) {
+    //     $ele.addClass('original').clone().insertAfter($ele).addClass($newElmClass).removeClass('original');
+    // }
 
-    // clone home style 1 navigation for sticky menu
-    if ($('.wpo-site-header .navigation').length) {
-        cloneNavForSticyMenu($('.wpo-site-header .navigation'), "sticky-header");
-    }
+    // // clone home style 1 navigation for sticky menu
+    // if ($('.wpo-site-header .navigation').length) {
+    //     cloneNavForSticyMenu($('.wpo-site-header .navigation'), "sticky-header");
+    // }
 
-    var lastScrollTop = '';
+    // var lastScrollTop = '';
 
-    function stickyMenu($targetMenu, $toggleClass) {
-        var st = $(window).scrollTop();
-        var mainMenuTop = $('.wpo-site-header .navigation');
+    // function stickyMenu($targetMenu, $toggleClass) {
+    //     var st = $(window).scrollTop();
+    //     var mainMenuTop = $('.wpo-site-header .navigation');
 
-        if ($(window).scrollTop() > 1000) {
-            if (st > lastScrollTop) {
-                // hide sticky menu on scroll down
-                $targetMenu.removeClass($toggleClass);
+    //     if ($(window).scrollTop() > 100) {
+    //         if (st > lastScrollTop) {
+    //             // hide sticky menu on scroll down
+    //             $targetMenu.removeClass($toggleClass);
 
-            } else {
-                // active sticky menu on scroll up
-                $targetMenu.addClass($toggleClass);
-            }
+    //         } else {
+    //             // active sticky menu on scroll up
+    //             $targetMenu.addClass($toggleClass);
+    //         }
 
-        } else {
+    //     } else {
+    //         $targetMenu.removeClass($toggleClass);
+    //     }
+
+    //     lastScrollTop = st;
+
+
+    // }
+
+// Function for clone an element for sticky menu
+function cloneNavForStickyMenu($ele, $newElmClass) {
+    $ele.addClass('original').clone().insertAfter($ele).addClass($newElmClass).removeClass('original');
+}
+
+// Clone home style 1 navigation for sticky menu
+if ($('.wpo-site-header .navigation').length) {
+    cloneNavForStickyMenu($('.wpo-site-header .navigation'), "sticky-header");
+}
+
+var lastScrollTop = '';
+
+function stickyMenu($targetMenu, $toggleClass) {
+    var st = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    var documentHeight = $(document).height();
+
+    if (st > lastScrollTop) {
+        // Scrolling down
+        if ((st + windowHeight) < documentHeight) {
+            // Hide sticky menu if not at the bottom
             $targetMenu.removeClass($toggleClass);
         }
-
-        lastScrollTop = st;
-
-
+    } else {
+        // Scrolling up or at the top
+        if (st > 200) {
+            // Active sticky menu if not at the top
+            $targetMenu.addClass($toggleClass);
+        } else {
+            // Hide sticky menu if at the top
+            $targetMenu.removeClass($toggleClass);
+        }
     }
 
+    lastScrollTop = st;
+}
 
+// Listen to scroll events
+$(window).scroll(function() {
+    stickyMenu($('.sticky-header'), 'sticky-active');
+});
 
 /*------------------------------------------
         = Header search toggle

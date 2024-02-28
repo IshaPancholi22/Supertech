@@ -1,5 +1,5 @@
 p{
-  font-family: 'Open Sans';
+  <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-size: 16px;
     color: #222;
 }
@@ -130,7 +130,7 @@ p {
 }
 .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-content h2, .wpo-section-title h2 {
   left: 0px;
-  font-family: 'Montserrat';
+  <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
   color: #55b047;
   font-size: 36px;
   padding-top: 0;

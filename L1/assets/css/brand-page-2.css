@@ -1,8 +1,10 @@
 h1, h2,h3,h4,h5,h6{
-    font-family: 'Montserrat' !important;
+    /* <!-- font-family: 'Montserrat' !important;-->   */
+    font-family: "Helvetica";
 }
 p{
-    font-family: 'Montserrat' !important;
+    /* <!-- font-family: 'Montserrat' !important;-->  */
+     font-family: "Helvetica";
 }
 .mid-container{
     max-width: 1080px !important;
@@ -15,16 +17,17 @@ p{
 }
 .h1-tag{
     color: #53af47;
-    font-size: 33px;
+    font-size: 30px;
     font-weight: bolder;
-    padding: 20px 0 !important;
+    padding: 20px 0;
     font-weight: 700 !important;
+    margin: 0;
 }
 .p-tag {
-    font-size: 20px !important;
+    font-size: 15px !important;
     font-weight: 500;
     color: #000;
-    line-height: 26px;
+    line-height: 25px;
 }
 .p-tag span{
     font-weight:800;
@@ -45,18 +48,18 @@ p{
     padding: 0px 115px 12px 12px;
     font-weight: 500;
     color: #474747;
-    font-size: 18px;
+    font-size: 15px;
 }
 .ul-div-two {
     padding: 0px 0px 12px 25px;
     font-weight: 500;
     color: #000;
-    font-size: 20px !important;
+    font-size: 15px !important;
 }
 .ul-heading{
     font-weight: 500;
     color: #474747;
-    font-size: 18px;
+    font-size: 15px;
     margin:0;
 }
 .ol-div{
@@ -127,13 +130,15 @@ p.para-right {
 }
 .ul-div ul li{
     padding:  0;
+    font-size: 15px;
+    line-height: 25px;
    
 }
 .img-left{
     width: 100%;
 }
 .ol-font{
-    font-size: 18px;
+    font-size: 15px;
     color: #000;
     font-weight: 500;
 }
@@ -290,13 +295,15 @@ p.para-right {
     padding: 28px 0 !important;
 }
 .wpo-section-title h3 {
-    font-family: 'Montserrat';
+    /* <!--    font-family: 'Montserrat';-->   */
+    font-family: "Helvetica";
     font-size: 35px;
     text-shadow: -2px -3px 4px black;
     font-weight: 600;
 }
 .tagline-font-01 {
-    font-family: 'Montserrat';
+    /* <!--    font-family: 'Montserrat';-->   */
+    font-family: "Helvetica";
     font-size: 22px;
     margin: 0;
     font-weight: 500;

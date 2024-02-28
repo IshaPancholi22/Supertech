@@ -70,8 +70,10 @@ Version:        1.0.0
 ----------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&amp;display=swap");
 @import url("https://fonts.googleapis.com/css?family=Muli:400,400i,600,700,800&amp;display=swap");
+@import url("../fonts/Helvetica.ttf");
 @font-face {
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
   src: url(../fonts/Muli.ttf) format("truetype");
   font-weight: 600;
   font-style: normal;
@@ -84,23 +86,34 @@ Version:        1.0.0
 }
 
 @font-face {
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
   font-style: normal;
   font-weight: 500;
   src: local("Muli Regular"), url("../fonts/text-font/Muli-Regular.woff") format("woff");
 }
 @font-face {
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->  */
+   font-family: "Helvetica";
   font-style: normal;
   font-weight: 600;
   src: local("Muli SemiBold"), url("../fonts/text-font/Muli-SemiBold.woff") format("woff");
 }
 @font-face {
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
   src: local("Muli Bold"), url("../fonts/text-font/Muli-Bold.woff") format("woff");
 }
+@font-face {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Helvetica.ttf") format("ttf");
+}
+
+
 /* 1.1	Theme Reset Style */
 html {
   font-size: 15px;
@@ -111,7 +124,8 @@ html {
 }
 
 body {
-  font-family: "Muli", sans-serif;
+  /* font-family: "Muli", sans-serif; */
+  font-family: "Helvetica";
   color: #687693;
   background-color: #fff;
   font-size: 15px;
@@ -137,7 +151,8 @@ h4,
 h5,
 h6 {
   color: #070143;
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
   font-weight: 600;
 }
 
@@ -357,7 +372,8 @@ img {
   text-transform: uppercase;
   font-size: 20px;
   color: #e3b576;
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
 }
 .wpo-section-title h2 {
   font-size: 40px;
@@ -366,7 +382,8 @@ img {
   margin-top: 15px;
   position: relative;
   text-transform: capitalize;
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
   padding-left: 40px;
   font-weight: 600;
   margin-top: 0;
@@ -845,7 +862,8 @@ img {
   margin: 0 0 1.3em;
   position: relative;
   text-transform: capitalize;
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
   padding-bottom: 20px;
   font-weight: 700;
 }
@@ -963,7 +981,8 @@ img {
   margin-bottom: 1.2em;
 }
 .blog-sidebar .about-widget a {
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
   font-size: 14px;
   font-size: 0.9333333333rem;
   color: #070143;
@@ -1044,7 +1063,8 @@ img {
   font-weight: 500;
   line-height: 1.3em;
   margin: 0 0 0.3em;
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
 }
 @media (max-width: 1199px) {
   .blog-sidebar .recent-post-widget .post h4 {
@@ -2844,7 +2864,8 @@ img {
 .wpo-hero-slider-s2 .wpo-hero-title-top span {
   font-size: 22px;
   color: #e4e4e4;
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
 }
 @media (max-width: 767px) {
   .wpo-hero-slider .wpo-hero-title-top span,
@@ -3246,7 +3267,8 @@ img {
   color: #fff;
   margin: 0;
   position: relative;
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
   font-weight: 700;
 }
 .wpo-site-footer .about-widget .logo {
@@ -3384,7 +3406,7 @@ img {
 .wpo-features-section,
 .wpo-features-section-s2 {
   padding-bottom: 90px;
-  background: #fafbfe;
+  /* background: #fafbfe; */
   z-index: 11;
   position: relative;
   border: 0;
@@ -3464,7 +3486,8 @@ img {
 .wpo-features-section-s2 .wpo-features-item .wpo-features-text h2 {
   font-size: 20px;
   font-weight: 700;
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
 }
 .wpo-features-section .wpo-features-item .wpo-features-text h2 a,
 .wpo-features-section-s2 .wpo-features-item .wpo-features-text h2 a {
@@ -3644,7 +3667,8 @@ img {
 .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-form-area h2 {
   font-size: 30px;
   font-weight: 700;
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid #e3b576;
@@ -3739,7 +3763,8 @@ img {
 }
 .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-content .wpo-contact-content-inner .signeture h4 {
   font-size: 22px;
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
   font-weight: 700;
   color: #5c6c8c;
 }
@@ -4159,7 +4184,8 @@ img {
   border-radius: 50%;
 }
 .wpo-testimonials-section .wpo-testimonial-wrap .wpo-testimonial-info .wpo-testimonial-info-text h5 {
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
   color: #fff;
   font-size: 20px;
 }
@@ -4485,7 +4511,8 @@ img {
 }
 .wpo-blog-section .wpo-blog-item .wpo-blog-content .wpo-blog-content-top h2 {
   font-size: 25px;
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
   margin-bottom: 25px;
   line-height: 36px;
   font-weight: 700;
@@ -4559,7 +4586,8 @@ img {
   color: #848892;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
 }
 
 /*======================================
@@ -4622,7 +4650,8 @@ img {
 }
 .wpo-about-section .wpo-about-content .signeture h4 {
   font-size: 22px;
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
   font-weight: 700;
   color: #5c6c8c;
 }
@@ -4746,7 +4775,8 @@ img {
   font-weight: 700;
   color: #e3b576;
   margin: 0 0 0.2em;
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5284,7 +5314,8 @@ img {
 }
 .wpo-service-single-section .wpo-service-single-wrap .wpo-service-single-content .wpo-service-single-content-des h2 {
   font-size: 33px;
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->  */
+   font-family: "Helvetica";
   margin-bottom: 30px;
   font-weight: 700;
 }
@@ -5314,7 +5345,8 @@ img {
 }
 .wpo-service-single-section .wpo-service-single-wrap .wpo-related-section h2 {
   font-size: 30px;
-  font-family: "Cormorant Garamond", serif;
+ /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
   margin-bottom: 30px;
   font-weight: 700;
 }
@@ -5365,7 +5397,8 @@ img {
 }
 .wpo-service-single-section .wpo-service-single-wrap .wpo-benefits-section h2 {
   font-size: 30px;
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
   margin-bottom: 30px;
   font-weight: 700;
 }
@@ -5389,7 +5422,8 @@ img {
   font-size: 20px;
   color: #070143;
   text-align: left;
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->  */
+   font-family: "Helvetica";
   font-weight: 600;
 }
 .wpo-service-single-section .wpo-service-single-wrap .wpo-benefits-section .accordion-item button::after {
@@ -5439,7 +5473,8 @@ img {
 }
 .wpo-single-sidebar .widget h2 {
   font-size: 25px;
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
   padding-bottom: 20px;
   position: relative;
   font-weight: 700;
@@ -5719,7 +5754,8 @@ img {
   font-size: 18px;
   color: #070143;
   text-align: left;
-  font-family: "Muli";
+  /*  <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
 }
 .service-single-section .wpo-benefits-section .accordion-item button::after,
 .project-single-section .wpo-benefits-section .accordion-item button::after {
@@ -6540,7 +6576,8 @@ img {
   margin-top: 20px;
 }
 .wpo-shop-section .add-to-cart a {
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
   font-size: 15px;
   font-size: 1rem;
   font-weight: 600;
@@ -6837,7 +6874,8 @@ img {
   margin-bottom: 0;
 }
 .wpo-shop-single-section .product-info .nav-tabs {
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
   border: 0;
 }
 @media (max-width: 767px) {
@@ -6861,7 +6899,8 @@ img {
   margin: 0;
   display: block;
   padding: 12px 20px 11px;
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
   position: relative;
 }
 @media (max-width: 767px) {
@@ -7319,7 +7358,8 @@ img {
   font-size: 18px;
   color: #070143;
   text-align: left;
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
 }
 .wpo-faq-section .accordion-item button::after {
   background: none;
@@ -7560,7 +7600,8 @@ img {
   line-height: 1.2em;
   font-weight: 700;
   margin: -0.27em 0 0.7em;
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->  */
+   font-family: "Helvetica";
 }
 @media (max-width: 991px) {
   .wpo-blog-pg-section .post h3 {
@@ -7883,7 +7924,8 @@ img {
   font-size: 2.3333333333rem;
   margin: -0.22em 0 0.7em;
   line-height: 1.3em;
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
 }
 @media (max-width: 991px) {
   .wpo-blog-single-section .post h2 {
@@ -8004,7 +8046,8 @@ img {
   align-items: center;
 }
 .wpo-blog-single-section .tag-share .tag > span, .wpo-blog-single-section .tag-share-s2 .tag > span {
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
   color: #070143;
   font-weight: 600;
   display: inline-block;
@@ -8080,7 +8123,8 @@ img {
   margin-bottom: 20px;
 }
 .wpo-blog-single-section .author-box .author-name {
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->  */
+   font-family: "Helvetica";
   font-size: 24px;
   font-size: 1.6rem;
   font-weight: 600;
@@ -8284,7 +8328,8 @@ img {
   margin-bottom: 20px;
 }
 .wpo-blog-single-section .comments-area .comments-meta h4 {
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->  */
+   font-family: "Helvetica";
   font-size: 20px;
   font-size: 1.3333333333rem;
   color: #070143;
@@ -8299,7 +8344,8 @@ img {
   text-transform: none;
   display: inline-block;
   padding-left: 5px;
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->  */
+   font-family: "Helvetica";
 }
 @media (max-width: 767px) {
   .wpo-blog-single-section .comments-area .comments-meta h4 span {
@@ -8307,7 +8353,8 @@ img {
   }
 }
 .wpo-blog-single-section .comments-area .comment-reply-link {
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->   */
+  font-family: "Helvetica";
   font-size: 13px;
   font-size: 0.8666666667rem;
   font-weight: 600;
@@ -8315,7 +8362,8 @@ img {
   text-align: center;
   border-radius: 50px;
   display: inline-block;
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
   text-decoration: underline;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -8396,7 +8444,8 @@ img {
   }
 }
 .wpo-blog-single-section .comment-respond .form-submit input {
-  font-family: "Cormorant Garamond", serif;
+  /* <!-- font-family: "Cormorant Garamond", serif;-->  */
+   font-family: "Helvetica";
   max-width: 180px;
   background-color: #1e2845;
   color: #fff;
@@ -8532,7 +8581,8 @@ img {
 }
 .wpo-contact-pg-section form .submit-area .theme-btn, .wpo-contact-pg-section form .submit-area .view-cart-btn {
   border-radius: 0px;
-  font-family: "Muli";
+  /* <!--     font-family: "Muli";-->   */
+  font-family: "Helvetica";
   font-size: 16px;
 }
 .wpo-contact-pg-section form .submit-area .theme-btn:after, .wpo-contact-pg-section form .submit-area .view-cart-btn:after {
@@ -8655,3 +8705,13 @@ img {
 .error-404-section .error-message p {
   margin-bottom: 1.8em;
 }/*# sourceMappingURL=style.css.map */
+
+.news-img.right-eve {
+  padding-right: 2px;
+}
+.events-new {
+  background-color: #fff;
+}
+.left-eve {
+  padding-left: 2px;
+}

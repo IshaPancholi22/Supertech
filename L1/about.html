@@ -36,6 +36,27 @@
 </head>
 
 <body>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe width=" 100%" height="300" src="https://www.youtube.com/embed/D0UnqGm_miA?si=EI5Ly6yvyVDVAdVc"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
   <!-- start page-wrapper -->
   <div class="page-wrapper ">
     <!-- start preloader -->
@@ -103,7 +124,7 @@
                           <div id="navbar" class="collapse navbar-collapse navigation-holder">
                               <button class="menu-close"><i class="ti-close"></i></button>
                               <ul class="nav navbar-nav mb-2 mb-lg-0">
-                                  <li><a href="#">Products</a></li>
+                                  <!-- <li><a href="#">Products</a></li> -->
                                   <li><a href="application-page.html">Applications</a></li>
                                   <li><a href="technology-expertise.html">Technology + Expertise</a></li>
                                   
@@ -139,7 +160,7 @@
 <section class="about-sec">
     <div class="body-width">
         <div class="row">
-          <div class="col-lg-8 col-md-8 col-12  ">
+          <div class="col-lg-7 col-md-7 col-12  ">
             <div class="wpo-section-title">
               <p class="about-tile">To provide solutions that transform and create reliability in the sectors of saving energy, environment and life, ultimately aiding towards sustainable human growth.</p>
             </div>
@@ -155,11 +176,13 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-12">
-            <iframe width=" 100%" height="200" src="https://www.youtube.com/embed/D0UnqGm_miA?si=EI5Ly6yvyVDVAdVc"
+          <div class="col-lg-5 col-md-5 col-12">
+            <img src="assets/images/about/about-us.jpg"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+          </div>
+            <!-- <iframe width=" 100%" height="200" src="https://www.youtube.com/embed/D0UnqGm_miA?si=EI5Ly6yvyVDVAdVc"
               title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
+              allowfullscreen></iframe> -->
           </div>
         </div>
     </div>
@@ -197,7 +220,7 @@
         </div>
         
         </div>
-        <div class="row mt-5">
+        <div class="row">
           <div class="col-lg-4 col-md-4 col-12">
             <div class="img-div-section">
               <img class="about-logo-img" src="./assets/images/about/Excellence.png" alt="img" />
@@ -323,7 +346,7 @@
                                       </ul>
                                   </div>
                               </div>
-                              <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-4">
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                                   <div class="widget social-widget">
                                       <span class="footer-icons-one">
                                           <img src="assets/images/home_page/footer-icons/CE-Logo.png">

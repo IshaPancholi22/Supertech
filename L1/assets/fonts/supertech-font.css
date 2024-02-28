@@ -1,6 +1,6 @@
 /* cyrillic-ext */
 @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: italic;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9WXV0poK5.woff2) format('woff2');
@@ -8,7 +8,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: italic;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9WXx0poK5.woff2) format('woff2');
@@ -16,7 +16,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: italic;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9WXd0poK5.woff2) format('woff2');
@@ -24,7 +24,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: italic;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9WXZ0poK5.woff2) format('woff2');
@@ -32,7 +32,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: italic;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9WXh0pg.woff2) format('woff2');
@@ -40,7 +40,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 100;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
@@ -48,7 +48,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 100;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
@@ -56,7 +56,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 100;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
@@ -64,7 +64,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 100;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
@@ -72,7 +72,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 100;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
@@ -80,7 +80,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 200;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
@@ -88,7 +88,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 200;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
@@ -96,7 +96,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 200;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
@@ -104,7 +104,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 200;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
@@ -112,7 +112,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 200;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
@@ -120,7 +120,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 300;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
@@ -128,7 +128,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 300;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
@@ -136,7 +136,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 300;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
@@ -144,7 +144,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 300;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
@@ -152,7 +152,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 300;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
@@ -160,7 +160,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
@@ -168,7 +168,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
@@ -176,7 +176,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
@@ -184,7 +184,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
@@ -192,7 +192,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
@@ -200,7 +200,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 500;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
@@ -208,7 +208,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 500;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
@@ -216,7 +216,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 500;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
@@ -224,7 +224,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 500;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
@@ -232,7 +232,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 500;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
@@ -240,7 +240,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 600;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
@@ -248,7 +248,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 600;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
@@ -256,7 +256,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 600;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
@@ -264,7 +264,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 600;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
@@ -272,7 +272,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 600;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
@@ -280,7 +280,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
@@ -288,7 +288,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
@@ -296,7 +296,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
@@ -304,7 +304,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
@@ -312,7 +312,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
@@ -320,7 +320,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 800;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
@@ -328,7 +328,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 800;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
@@ -336,7 +336,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 800;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
@@ -344,7 +344,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 800;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
@@ -352,7 +352,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 800;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
@@ -360,7 +360,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 900;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
@@ -368,7 +368,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 900;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
@@ -376,7 +376,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 900;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
@@ -384,7 +384,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 900;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
@@ -392,7 +392,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Montserrat';
+    <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 900;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
@@ -400,7 +400,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: italic;
     font-weight: 400;
     font-stretch: 100%;
@@ -409,7 +409,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: italic;
     font-weight: 400;
     font-stretch: 100%;
@@ -418,7 +418,7 @@
   }
   /* greek-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: italic;
     font-weight: 400;
     font-stretch: 100%;
@@ -427,7 +427,7 @@
   }
   /* greek */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: italic;
     font-weight: 400;
     font-stretch: 100%;
@@ -436,7 +436,7 @@
   }
   /* hebrew */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: italic;
     font-weight: 400;
     font-stretch: 100%;
@@ -445,7 +445,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: italic;
     font-weight: 400;
     font-stretch: 100%;
@@ -454,7 +454,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: italic;
     font-weight: 400;
     font-stretch: 100%;
@@ -463,7 +463,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: italic;
     font-weight: 400;
     font-stretch: 100%;
@@ -472,7 +472,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 300;
     font-stretch: 100%;
@@ -481,7 +481,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 300;
     font-stretch: 100%;
@@ -490,7 +490,7 @@
   }
   /* greek-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 300;
     font-stretch: 100%;
@@ -499,7 +499,7 @@
   }
   /* greek */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 300;
     font-stretch: 100%;
@@ -508,7 +508,7 @@
   }
   /* hebrew */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 300;
     font-stretch: 100%;
@@ -517,7 +517,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 300;
     font-stretch: 100%;
@@ -526,7 +526,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 300;
     font-stretch: 100%;
@@ -535,7 +535,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 300;
     font-stretch: 100%;
@@ -544,7 +544,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -553,7 +553,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -562,7 +562,7 @@
   }
   /* greek-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -571,7 +571,7 @@
   }
   /* greek */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -580,7 +580,7 @@
   }
   /* hebrew */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -589,7 +589,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -598,7 +598,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -607,7 +607,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -616,7 +616,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 500;
     font-stretch: 100%;
@@ -625,7 +625,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 500;
     font-stretch: 100%;
@@ -634,7 +634,7 @@
   }
   /* greek-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 500;
     font-stretch: 100%;
@@ -643,7 +643,7 @@
   }
   /* greek */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 500;
     font-stretch: 100%;
@@ -652,7 +652,7 @@
   }
   /* hebrew */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 500;
     font-stretch: 100%;
@@ -661,7 +661,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 500;
     font-stretch: 100%;
@@ -670,7 +670,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 500;
     font-stretch: 100%;
@@ -679,7 +679,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 500;
     font-stretch: 100%;
@@ -688,7 +688,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 600;
     font-stretch: 100%;
@@ -697,7 +697,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 600;
     font-stretch: 100%;
@@ -706,7 +706,7 @@
   }
   /* greek-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 600;
     font-stretch: 100%;
@@ -715,7 +715,7 @@
   }
   /* greek */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 600;
     font-stretch: 100%;
@@ -724,7 +724,7 @@
   }
   /* hebrew */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 600;
     font-stretch: 100%;
@@ -733,7 +733,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 600;
     font-stretch: 100%;
@@ -742,7 +742,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 600;
     font-stretch: 100%;
@@ -751,7 +751,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 600;
     font-stretch: 100%;
@@ -760,7 +760,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;
     font-stretch: 100%;
@@ -769,7 +769,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;
     font-stretch: 100%;
@@ -778,7 +778,7 @@
   }
   /* greek-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;
     font-stretch: 100%;
@@ -787,7 +787,7 @@
   }
   /* greek */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;
     font-stretch: 100%;
@@ -796,7 +796,7 @@
   }
   /* hebrew */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;
     font-stretch: 100%;
@@ -805,7 +805,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;
     font-stretch: 100%;
@@ -814,7 +814,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;
     font-stretch: 100%;
@@ -823,7 +823,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;
     font-stretch: 100%;
@@ -832,7 +832,7 @@
   }
   /* cyrillic-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 800;
     font-stretch: 100%;
@@ -841,7 +841,7 @@
   }
   /* cyrillic */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 800;
     font-stretch: 100%;
@@ -850,7 +850,7 @@
   }
   /* greek-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 800;
     font-stretch: 100%;
@@ -859,7 +859,7 @@
   }
   /* greek */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 800;
     font-stretch: 100%;
@@ -868,7 +868,7 @@
   }
   /* hebrew */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 800;
     font-stretch: 100%;
@@ -877,7 +877,7 @@
   }
   /* vietnamese */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 800;
     font-stretch: 100%;
@@ -886,7 +886,7 @@
   }
   /* latin-ext */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 800;
     font-stretch: 100%;
@@ -895,7 +895,7 @@
   }
   /* latin */
   @font-face {
-    font-family: 'Open Sans';
+    <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
     font-style: normal;
     font-weight: 800;
     font-stretch: 100%;

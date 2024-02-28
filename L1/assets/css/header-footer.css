@@ -49,7 +49,8 @@ section.contact-sec-line {
 
 .contact-sec-line p {
     color: #fff;
-    font-size: 18px;
+    font-size: 15px;
+    line-height: 25px;
     padding-right: 50px;
     margin: 0;
 }
@@ -60,8 +61,8 @@ section.contact-sec-line {
 }
 .contact-sec-line .get-btn {
     color: #fff;
-    font-size: 18px;
-    padding: 10px 38px;
+    font-size: 20px;
+    padding: 10px 24px;
     border: 1px solid #fff;
 }
 .contact-sec-line .get-btn:hover {
@@ -92,7 +93,8 @@ section.contact-sec-line {
     .body-width {
         width: 1060px !important;
         margin: 0 auto;
-        font-family: 'Montserrat' !important;
+        /* <!-- font-family: 'Montserrat' !important;-->   */
+        font-family: "Helvetica";
     }
 
     .wpo-site-header {
@@ -176,7 +178,8 @@ section.contact-sec-line {
     border: 2px solid transparent !important;
     font-weight: 400 !important;
     font-size: 17px !important;
-    font-family: 'Montserrat' !important;
+    /* <!-- font-family: 'Montserrat' !important;-->  */
+     font-family: "Helvetica";
 }
 
 .wpo-site-header #navbar {
@@ -220,6 +223,7 @@ section.contact-sec-line {
     background: #fff !important;
     position: relative;
     font-size: 15px;
+    line-height: 25px;
     overflow: hidden;
 }
 
@@ -251,15 +255,17 @@ section.contact-sec-line {
         font-size: 27px !important;
         font-weight: 600 !important;
         color: #52b348 !important;
-        font-family: 'Montserrat' !important;
+        /* <!-- font-family: 'Montserrat' !important;-->   */
+        font-family: "Helvetica";
     }
     .wpo-site-footer .widget-title h5 {
     text-transform: none !important;
-    letter-spacing: -1px !important;
+    /* letter-spacing: -1px !important; */
     font-size: 20px !important;
     font-weight: 700 !important;
     color: #52b348 !important;
-    font-family: 'Montserrat' !important;
+    /* <!-- font-family: 'Montserrat' !important;-->   */
+    font-family: "Helvetica";
     margin-bottom: 0;
     margin-top: 15px;
 }
@@ -271,7 +277,8 @@ section.contact-sec-line {
         line-height: 23px;
         font-size: 15px !important;
         color: #474545 !important;
-        font-family: 'Open Sans';
+        /* <!--    font-family: 'Open Sans';-->   */
+        font-family: "Helvetica";
     }
 
     .wpo-site-footer .link-widget ul li span {
@@ -288,8 +295,9 @@ section.contact-sec-line {
 .wpo-site-footer p {
     color: #474545 !important;
     font-size: 15px !important;
-    line-height: 22px;
-    font-family: 'Open Sans' !important;
+    line-height: 25px;
+    /* <!--     font-family: 'Open Sans' !important;-->   */
+    font-family: "Helvetica";
     margin-bottom: 5px;
 }
 
@@ -313,10 +321,10 @@ section.contact-sec-line {
 
 .wpo-site-footer .tag-widget ul li a {
     color: #474545 !important;
-    font-family: 'Open Sans';
-    line-height: 15px;
+    font-family: "Helvetica";
+    line-height: 25px;
     font-size: 15px !important;
-    padding: 5px 0 !important;
+    padding: 0px 0 !important;
     margin: 0 !important;
 }
 

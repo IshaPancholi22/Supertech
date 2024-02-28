@@ -19,7 +19,8 @@
 /*video Slider*/ .main-slider {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 800px;
+    /* height: 100vh; */
     min-height: 8vw;
     margin-bottom: 50px;
     opacity: 0;
@@ -35,7 +36,8 @@
 
 .slick-slide {
     position: relative;
-    height: 100vh;
+    height: 800px;
+    /* height: 100vh; */
 }
 
     .slick-slide video {
@@ -203,9 +205,9 @@
             background-color: #fff !important;
         }
 
-.sticky-header {
+/* .sticky-header {
     z-index: 9 !important;
-}
+} */
 
 .modal-dialog {
     margin: 0 auto !important;
@@ -335,7 +337,7 @@ ul.no-list li {
 }
 
 .bg-darkgrey {
-    background-color: #292929 !important;
+    background-color: #333132 !important;
 }
 
 .bg-green {
@@ -379,8 +381,8 @@ ul.service-sec li {
     padding: 0px 0 !important;
     color: #000;
     font-size: 15px;
-    line-height: 20px;
-    font-weight: 600;
+    line-height: 25px;
+    font-weight: 400;
 }
 
 .counter-block {
@@ -390,16 +392,19 @@ ul.service-sec li {
 }
 
     .counter-block h2 {
-        font-size: 26px;
+        font-size: 30px;
         font-weight: 700;
         color: #52b348 !important;
-        font-family: 'Montserrat' !important;
+        /* <!-- font-family: 'Montserrat' !important;-->  */
+         font-family: "Helvetica";
     }
 
     .counter-block p {
-        color: #c9c8c8 !important;
-        font-family: 'Open Sans' !important;
+        color: #fff !important;
+        /* <!--     font-family: 'Open Sans' !important;-->  */
+         font-family: "Helvetica";
         font-size: 15px;
+        line-height: 25px;
     }
 
 .counter-position {
@@ -423,6 +428,7 @@ p.txt-globe {
     color: #fff;
     line-height: 20px;
     margin: 0;
+    font-size: 15px;
 }
 
 .padding-globe {
@@ -432,14 +438,16 @@ p.txt-globe {
 h2.main-heading {
     color: #52b348;
     text-align: left;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 36px;
-    font-family: 'Montserrat';
+    /* <!--    font-family: 'Montserrat';-->   */
+    font-family: "Helvetica";
 }
 
 .sub-heading {
-    font-family: 'Open Sans';
+    /* <!--    font-family: 'Open Sans';-->   */
+    font-family: "Helvetica";
     color: #222222;
     font-size: 14px;
     font-weight: 400;
@@ -471,6 +479,7 @@ h2.main-heading {
         color: #fff;
         font-size: 15px !important;
         margin-bottom: 0;
+        line-height: 25px;
     }
 
 .right-img, .left-img {
@@ -490,15 +499,17 @@ h2.main-heading {
     .content-box-contact h4 {
         /*color: #fff;*/
         color: #52b348;
-        font-size: 29px;
+        font-size: 30px;
         font-weight: 700;
         text-align: left;
-        font-family: 'Montserrat';
+        /* <!--    font-family: 'Montserrat';-->   */
+        font-family: "Helvetica";
         margin-bottom: 20px;
     }
 
     .content-box-contact p {
-        font-family: 'Open Sans';
+        /* <!--    font-family: 'Open Sans';-->   */
+        font-family: "Helvetica";
         color: #fff;
         font-size: 15px;
         font-weight: 500;
@@ -542,23 +553,25 @@ h2.main-heading {
     font-size: 30px;
     color: #52b348;
     text-align: left;
-    font-family: 'Montserrat';
+    /* <!--    font-family: 'Montserrat';-->  */
+     font-family: "Helvetica";
     margin-bottom: 10px;
     font-weight: 700;
 }
 
 .left-img .content-box p, .right-img .content-box p {
-    font-family: 'Open Sans';
+    /* <!--    font-family: 'Open Sans';-->   */
+    font-family: "Helvetica";
     /* color: #222222; */
     color: #eee;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
     min-height: 90px;
-    line-height: 1.714em;
+    line-height: 25px;
 }
 
 .left-img .content-box ul li, .right-img .content-box ul li {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 15px;
     color: #eee;
     /*color: #222222;*/
@@ -569,14 +582,15 @@ h2.main-heading {
 
 a.get-btn {
     color: #fff;
-    padding: 10px;
+    font-size: 20px;
+    padding: 10px 24px;
     /*border: 1px solid #fff;*/
     border: 1px solid #52b348;
 }
 
     a.get-btn:hover {
         color: #fff;
-        padding: 10px;
+        padding: 10px 38px;
         background-color: #52b348;
          border: 1px solid #52b348;
         /*background-color: #474545;
@@ -634,7 +648,8 @@ section.contact-sec-line {
         color: #ffffff !important;
         text-align: left;
         font-size: 35px !important;
-        font-family: 'Montserrat';
+        /* <!--    font-family: 'Montserrat';-->   */
+        font-family: "Helvetica";
     }
 
     .article-sec .wpo-blog-item .wpo-blog-content.first-block .wpo-blog-content-top {
@@ -648,7 +663,8 @@ section.contact-sec-line {
     }
 
         .article-sec .wpo-blog-item .wpo-blog-content .wpo-blog-content-top h2 a {
-            font-family: 'Montserrat';
+            /* <!--    font-family: 'Montserrat';-->   */
+            font-family: "Helvetica";
             color: #222222 !important;
             font-size: 26px !important;
             font-weight: 600 !important;
@@ -656,9 +672,11 @@ section.contact-sec-line {
         }
 
         .article-sec .wpo-blog-item .wpo-blog-content .wpo-blog-content-top p {
-            font-family: 'Montserrat';
+            /* <!--    font-family: 'Montserrat';-->   */
+            font-family: "Helvetica";
             line-height: 25px;
-            font-family: 'Open Sans';
+            /* <!--    font-family: 'Open Sans';-->   */
+            font-family: "Helvetica";
             color: #222222;
             font-size: 14px;
             font-weight: 400;
@@ -674,7 +692,8 @@ section.contact-sec-line {
             /* font-weight: 600; */
             font-size: 14px;
             padding-top: 14px;
-            font-family: 'Open Sans';
+            /* <!--    font-family: 'Open Sans';-->   */
+            font-family: "Helvetica";
             border: 1px solid transparent;
             box-sizing: border-box;
             padding-bottom: 14px;
@@ -709,6 +728,7 @@ section.contact-sec-line {
 .dark-sec .wpo-features-text p {
     width: 80% !important;
     font-size: 15px;
+    line-height: 25px;
 }
 
 .video-sec {
@@ -720,8 +740,9 @@ section.contact-sec-line {
 }
 
 section.news-section {
-    background: #292929;
-    font-family: 'Montserrat' !important;
+    background: #333132;
+    /* <!-- font-family: 'Montserrat' !important;-->   */
+    font-family: "Helvetica";
 }
 
 .news-grid {
@@ -730,10 +751,9 @@ section.news-section {
 
 .news-title h3 {
     color: #fff;
-    font-family: 'Montserrat' !important;
-    padding: 50px 0 0 10px;
+    font-family: "Helvetica";
+    padding: 30px 0;
 }
-
 .block-padding {
     padding: 0 30px;
 }
@@ -745,7 +765,7 @@ section.news-section {
     position: absolute;
     z-index: 99999;
     bottom: 2%;
-    font-size: 25px;
+    font-size: 30px;
     padding: 0 20px;
     color: #fff;
     font-weight: 600;
@@ -997,4 +1017,77 @@ section.news-section {
         width: 345px;
     }
 
+}
+.deployment-section.even .wow.fadeInLeft.animated{
+    z-index: 997;
+}
+.deployment-section:nth-child(n+1) .wow.fadeInRight.animated {
+    z-index: 990;
+}
+.news-title h3 {
+    font-size: 30px !important;
+}
+ #carouselVideoExample {
+    background-color: #292929;
+ }
+.carousel-caption {
+    top: 40%;
+    left: 10%;
+    padding: 20px;
+    opacity: 1;
+    transition: all 0.3s ease;
+    transform: translateY(100px);
+    text-align: left;
+    max-height: max-content;
+}
+
+.carousel-caption p {
+    font-weight: 900;
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 1px -2px 7px #2f2f2f;
+}
+.carousel-caption p span{
+    font-weight: 900;
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 1px -2px 7px #2f2f2f;
+}
+
+span.carousel-control-prev-icon,span.carousel-control-next-icon {
+    opacity: 0;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.bg-news{
+    background-color: #fff;
+    margin: 0;
+}
+
+.bg-news img{
+    height: 100%;
+    width: auto !important;
+}
+
+.bg-news .padding{
+    padding: 0;
+}
+.padding-news{
+    padding: 0 50px ;
+}
+
+.bg-news .content{
+    padding: 20px 0;
+}
+.bg-news .content p{
+   font-size: 15px;
+   line-height: 25px;
+   color: #000;
+}
+.bg-news .content h3 {
+    font-size: 20px;
 }

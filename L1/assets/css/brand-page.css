@@ -37,29 +37,32 @@
 }
 
 .wpo-section-title h3 {
-    font-family: 'Montserrat';
+    /* <!--    font-family: 'Montserrat';-->   */
+    font-family: "Helvetica";
     font-size: 35px;
     text-shadow: -2px -3px 4px black;
     font-weight: 600;
 }
 
 .tagline-font-01 {
-    font-family: 'Montserrat';
+    /* <!--    font-family: 'Montserrat';-->  */
+     font-family: "Helvetica";
     font-size: 22px;
     margin: 0;
     font-weight: 500;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat';
+    /* <!--    font-family: 'Montserrat';-->   */
+    font-family: "Helvetica";
     font-size: 16px;
     color: #222;
 }
 
 .wpo-contact-content-inner p {
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 29px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
     padding-right: 75px;
     margin-bottom: 35px;
 }
@@ -74,11 +77,12 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .cage-sec .ul-li-heading h4 {
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .cage-sec .ul-li-heading ul li {
-    font-size: 17px;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 .wpo-contact-section.second .wpo-contact-content-inner p {
@@ -91,8 +95,8 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .img-left .wpo-contact-content-inner p {
-    font-weight: 600;
-    font-size: 19px;
+    font-weight: 400;
+    font-size: 15px;
     line-height: 29px;
     padding-right: 0;
     margin-bottom: 35px;
@@ -156,9 +160,10 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .new-sec .new-row .heading {
-    font-family: 'Montserrat';
+    /* <!--    font-family: 'Montserrat';-->   */
+    font-family: "Helvetica";
     color: #2a2a2a;
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 25px;
 }
 
@@ -168,21 +173,23 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
     .new-sec .new-row .border-left-sec .heading {
-        font-family: 'Montserrat';
+        /* <!--    font-family: 'Montserrat';-->   */
+        font-family: "Helvetica";
         color: #2a2a2a;
-        font-size: 28px;
+        font-size: 20px;
         margin-bottom: 10px;
     }
 
 .new-sec .new-row .heading span {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     color: #484848;
 }
 
 .new-sec .new-row ul.square-list {
     list-style: square;
-    font-size: 22px;
+    font-size: 15px;
+    line-height: 25px;
     padding-left: 28px;
     color: #484848;
 }
@@ -192,9 +199,9 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
     .new-sec ul.no-list li span {
-        font-size: 39px;
+        font-size: 20px;
         color: #52b348;
-        line-height: 24px;
+        line-height: 25px;
     }
 
 .new-sec .new-row .square-list li::marker {
@@ -238,11 +245,11 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 0px;
 }
 
-    .brand-product-part .brand-product-img img {
+    /* .brand-product-part .brand-product-img img {
     }
 
 .brand-product-part .brand-product-name {
-}
+} */
 
     .brand-product-part .brand-product-name p {
         text-align: center;
@@ -267,7 +274,8 @@ p, h1, h2, h3, h4, h5, h6 {
             color: #fff;
             font-weight: 600;
             font-size: 22px;
-            font-family: 'Montserrat';
+            /* <!--    font-family: 'Montserrat';-->   */
+            font-family: "Helvetica";
         }
 
     .design-bag-part .design-bag-title {
@@ -280,7 +288,8 @@ p, h1, h2, h3, h4, h5, h6 {
             font-size: 28px;
             color: #55b047;
             font-weight: 700;
-            font-family: 'Montserrat';
+            /* <!--    font-family: 'Montserrat';-->   */
+            font-family: "Helvetica";
         }
 
 .half-left-right-part {
@@ -295,7 +304,8 @@ p, h1, h2, h3, h4, h5, h6 {
     .ul-li-heading h4 {
         font-size: 22px;
         font-weight: 600;
-        font-family: 'Montserrat';
+        /* <!--    font-family: 'Montserrat';-->   */
+        font-family: "Helvetica";
         color: #222;
     }
 
@@ -306,7 +316,8 @@ p, h1, h2, h3, h4, h5, h6 {
     }
 
         .ul-li-heading ul li {
-            font-family: 'Open Sans';
+            /* <!--    font-family: 'Open Sans';-->   */
+            font-family: "Helvetica";
             color: #646464;
             font-size: 18px;
         }
@@ -359,9 +370,11 @@ p, h1, h2, h3, h4, h5, h6 {
         padding: 0px 18px;
         line-height: initial;
         text-align: center;
-        font-size: 18px;
+        font-size: 15px;
+        line-height: 25px;
         margin-bottom: 0;
-        font-family: 'open sans';
+        /* <!--    font-family: 'Open Sans';-->  */
+         font-family: "Helvetica";
     }
 
     .box-level-01:hover, .box-level-02:hover, .box-level-03:hover, .box-level-04:hover {
@@ -382,11 +395,11 @@ p, h1, h2, h3, h4, h5, h6 {
     position:relative;
 }
 
-    .application-field-part .application-field-img {
+    /* .application-field-part .application-field-img {
     }
 
         .application-field-part .application-field-img img {
-        }
+        } */
 
    .application-field-part .application-field-name {
     margin-top: 0px;
@@ -399,7 +412,8 @@ p, h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
     text-align: center;
     padding: 15px;
-    font-family: 'Montserrat';
+    /* <!--    font-family: 'Montserrat';-->   */
+    font-family: "Helvetica";
     font-weight: 600;
     color: #fff;
     background: #000000b3;
@@ -420,9 +434,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-content h2, .wpo-section-title h2 {
     left: 0px;
-    font-family: 'Montserrat';
+    /* <!--    font-family: 'Montserrat';-->   */
+    font-family: "Helvetica";
     color: #55b047;
-    font-size: 31px;
+    font-size: 30px;
     padding-top: 0;
     padding: 0;
     margin-bottom: 20px;
@@ -433,16 +448,17 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
     .wpo-section-title h2 {
-        font-size: 28px;
+        font-size: 30px;
         margin-bottom: 0;
         font-weight: 700;
     }
 
     .wpo-section-title.small h2 {
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 0;
-    font-weight: 600;
-    font-family: 'Open Sans';
+    font-weight: 700;
+    /* <!--    font-family: 'Open Sans';-->   */
+    font-family: "Helvetica";
 }
 
 .filter-cage-p {
@@ -535,7 +551,8 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .font-21 {
-    font-size: 21px !important;
+    font-size: 15px !important;
+    line-height: 25px;
 }
 
 .last-section .brochure-btn {
@@ -586,7 +603,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
     .green-sec-two p {
         color: #fff;
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 600;
         margin-bottom: 0;
         line-height:35px;
@@ -628,7 +645,8 @@ p, h1, h2, h3, h4, h5, h6 {
     position: relative !important;
     color: #000;
     font-weight: 400 !important;
-    font-size: 13px;
+    font-size: 15px;
+    line-height: 25px;
     padding: 10px 4px;
 }
 
@@ -641,7 +659,8 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .new-row-img p {
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 25px;
     margin-bottom: 0;
     padding: 6px 0;
     text-align: center;
@@ -650,12 +669,12 @@ p, h1, h2, h3, h4, h5, h6 {
     border:2px solid #c8c7c7;
 }
 .app-sec h3 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 800;
 }
 .app-sec p {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 .cement-padding {
@@ -803,6 +822,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
     .wpo-contact-content-inner p {
         font-size: 15px !important;
+        line-height: 25px;
         padding-right: 0 !important;
     }
 

@@ -67,7 +67,7 @@
 	font-size: 55px;
 	line-height: 65px;
 	font-weight: 700;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: #fff;
 	text-decoration: none;
 	background-color: transparent;
@@ -82,7 +82,7 @@
 	font-size: 25px;
 	line-height: 25px;
 	font-weight: 600;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: #fff;
 	text-decoration: none;
 	background-color: transparent;
@@ -279,7 +279,7 @@
 	font-weight: 300;
 	font-size: 30px;
 	line-height: 30px;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	background-color: transparent;
 }
 
@@ -290,7 +290,7 @@
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 26px;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	background-color: transparent;
 }
 
@@ -308,7 +308,7 @@
 	font-size: 30px;
 	line-height: 75px;
 	font-weight: 800;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	background-color: rgb(0, 0, 0);
@@ -325,7 +325,7 @@
 	font-size: 50px;
 	line-height: 70px;
 	font-weight: 300;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	background-color: rgb(0, 0, 0);
@@ -343,7 +343,7 @@
 	font-weight: 300;
 	font-size: 50px;
 	line-height: 70px;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	background-color: #db4360;
 	padding: 0px 20px;
 	-webkit-border-radius: 0px;
@@ -358,7 +358,7 @@
 	font-weight: 300;
 	font-size: 50px;
 	line-height: 70px;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	background-color: #fff;
 	padding: 0px 20px;
 	-webkit-border-radius: 0px;
@@ -373,7 +373,7 @@
 	font-weight: 300;
 	font-size: 50px;
 	line-height: 70px;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	background-color: #67ae73;
 	padding: 0px 20px;
 	-webkit-border-radius: 0px;
@@ -421,7 +421,7 @@
 	font-size: 34px;
 	line-height: 30px;
 	font-weight: 300;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(102, 102, 102);
 	text-decoration: none;
 	background-color: transparent;
@@ -437,7 +437,7 @@
 	font-size: 18px;
 	line-height: 26px;
 	font-weight: 300;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(117, 117, 117);
 	text-decoration: none;
 	background-color: transparent;
@@ -465,7 +465,7 @@
 	font-size: 58px;
 	line-height: 60px;
 	font-weight: 800;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(52, 73, 94);
 	text-decoration: none;
 	background-color: transparent;
@@ -478,7 +478,7 @@
 	font-size: 20px;
 	line-height: 20px;
 	font-weight: 800;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	background-color: rgb(52, 73, 94);
@@ -492,7 +492,7 @@
 	font-size: 24px;
 	line-height: 30px;
 	font-weight: 800;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(227, 58, 12);
 	text-decoration: none;
 	background-color: transparent;
@@ -506,7 +506,7 @@
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 300;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(227, 58, 12);
 	text-decoration: none;
 	background-color: transparent;
@@ -520,7 +520,7 @@
 	font-size: 20px;
 	line-height: 20px;
 	font-weight: 800;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	background-color: rgb(227, 58, 12);
@@ -534,7 +534,7 @@
 	font-size: 24px;
 	line-height: 30px;
 	font-weight: 800;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(243, 156, 18);
 	text-decoration: none;
 	background-color: transparent;
@@ -547,7 +547,7 @@
 	font-size: 20px;
 	line-height: 20px;
 	font-weight: 800;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	background-color: rgb(243, 156, 18);
@@ -571,7 +571,7 @@
 	font-size: 58px;
 	line-height: 60px;
 	font-weight: 800;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	background-color: transparent;
@@ -584,7 +584,7 @@
 	font-size: 30px;
 	line-height: 36px;
 	font-weight: 300;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	background-color: transparent;
@@ -598,7 +598,7 @@
 	font-size: 34px;
 	line-height: 40px;
 	font-weight: 300;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	background-color: transparent;
@@ -612,7 +612,7 @@
 	font-size: 34px;
 	line-height: 40px;
 	font-weight: 300;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: #ffffff;
 	text-decoration: none;
 	background-color: transparent;
@@ -627,7 +627,7 @@
 	font-size: 20px;
 	line-height: 20px;
 	font-weight: 800;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	background-color: rgb(127, 140, 141);
@@ -641,7 +641,7 @@
 	font-size: 30px;
 	line-height: 36px;
 	font-weight: 300;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(0, 0, 0);
 	text-decoration: none;
 	background-color: transparent;
@@ -655,7 +655,7 @@
 	font-size: 58px;
 	line-height: 60px;
 	font-weight: 800;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(0, 0, 0);
 	text-decoration: none;
 	background-color: transparent;
@@ -668,7 +668,7 @@
 	font-size: 34px;
 	line-height: 40px;
 	font-weight: 300;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(52, 73, 94);
 	text-decoration: none;
 	background-color: transparent;
@@ -682,7 +682,7 @@
 	font-size: 17px;
 	line-height: 28px;
 	font-weight: 300;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	background-color: transparent;
@@ -702,7 +702,7 @@
 	font-size: 40px;
 	line-height: 40px;
 	font-weight: 800;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	background-color: rgb(0, 0, 0);
@@ -716,7 +716,7 @@
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: 300;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(0, 0, 0);
 	text-decoration: none;
 	background-color: rgb(255, 255, 255);
@@ -731,7 +731,7 @@
 	font-size: 20px;
 	line-height: 20px;
 	font-weight: 800;
-	font-family: "Open Sans";
+	<!-- font-family: "Open Sans";-->  font-family: "Helvetica";
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	background-color: rgb(243, 156, 18);

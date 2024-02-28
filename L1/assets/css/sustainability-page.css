@@ -1,13 +1,14 @@
 ﻿h2.sustain-tile {
     color: #52b348;
-    font-family: 'Montserrat' !important;
+    /*<!--   <!-- font-family: 'Montserrat' !important;-->-->*/  font-family: "Helvetica";
     padding-bottom: 6px !important;
 }
 
 p.sustain-para {
     color: #000 !important;
-    font-family: 'Open Sans';
+    /*<!--    font-family: 'Open Sans';-->*/  font-family: "Helvetica";
     font-size: 15px;
+    line-height: 25px;
 }
 
 .wpo-blog-single-section .post h2 {
@@ -16,7 +17,7 @@ p.sustain-para {
     font-size: 2.3333333333rem;
     margin: 0em 0 0em !important;
     line-height: 1.3em;
-    font-family: "Cormorant Garamond", serif;
+    /*<!-- font-family: "Cormorant Garamond", serif;-->*/  font-family: "Helvetica";
 }
 .wpo-blog-single-section .post p {
     font-weight: 600;
@@ -25,7 +26,7 @@ p.sustain-para {
 p.sustain-para-lst {
     color: #000 !important;
     margin-bottom: -2px !important;
-    font-family: 'Open Sans';
+    /*<!--    font-family: 'Open Sans';-->*/  font-family: "Helvetica";
 }
 .margin-icons{
     margin-top:80px ;
@@ -42,7 +43,7 @@ ul .sustain-para-lsting {
 p.sustain-para-imtxt {
     color: #000 !important;
     margin-bottom: -45px !important;
-    font-family: 'Open Sans';
+    /*<!--    font-family: 'Open Sans';-->*/  font-family: "Helvetica";
     text-align: center;
     margin-top: 0;
     font-size: 17px;
@@ -59,7 +60,7 @@ p.sustain-para-imtxt {
 .body-width {
     width: 1080px !important;
     margin: 0 auto;
-    font-family: 'Montserrat' !important;
+    /*<!--   <!-- font-family: 'Montserrat' !important;-->-->*/  font-family: "Helvetica";
 }
 
 .section-padding {
@@ -105,7 +106,7 @@ section.contact-sec-line{
     .body-width {
         width: auto !important;
         margin: 0 auto;
-        font-family: 'Montserrat' !important;
+        /*<!--   <!-- font-family: 'Montserrat' !important;-->-->*/  font-family: "Helvetica";
     }
 }
 
@@ -113,7 +114,7 @@ section.contact-sec-line{
     p.sustain-para-imtxt {
         color: #000 !important;
         margin-bottom: -45px !important;
-        font-family: 'Open Sans';
+        /*<!--    font-family: 'Open Sans';-->*/  font-family: "Helvetica";
         text-align: center;
         margin-top: 0;
         font-size: 11px;
@@ -131,11 +132,11 @@ section.contact-sec-line{
     width: 100%;
     background: #313131b5;
     margin-bottom: 0;
-    font-family: 'Montserrat';
+    /*<!--    font-family: 'Montserrat';-->*/  font-family: "Helvetica";
 }
 .banner-img .banner-text h1 {
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     text-shadow: -2px -3px 4px black;
 }
@@ -167,7 +168,7 @@ section.contact-sec-line{
         width: 100%;
         background: #313131;
         margin-bottom: 0;
-        font-family: 'Montserrat';
+        /*<!--    font-family: 'Montserrat';-->*/  font-family: "Helvetica";
     }
     .banner-img .banner-text h1 {
         color: #fff;
@@ -190,7 +191,7 @@ section.contact-sec-line{
         width: 100%;
         background: #313131;
         margin-bottom: 0;
-        font-family: 'Montserrat';
+        /*<!--    font-family: 'Montserrat';-->*/  font-family: "Helvetica";
     }
     .text-right {
         text-align: center;
@@ -201,7 +202,7 @@ section.contact-sec-line{
     /* .body-width {
         width: 1060px !important;
         margin: 0 auto;
-        font-family: 'Montserrat' !important;
+       font-family: "Helvetica";
         padding: 0 20px 0 20px !important;
     } */
     .banner-img .banner-text {
@@ -212,7 +213,7 @@ section.contact-sec-line{
         width: 100%;
         background: #313131;
         margin-bottom: 0;
-        font-family: 'Montserrat';
+        /*<!--    font-family: 'Montserrat';-->*/  font-family: "Helvetica";
     }
 }
 .resp-width{
