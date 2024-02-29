@@ -107,7 +107,7 @@
 
                                         <li><a href="sustainability.html">Sustainability</a></li>
                                         <li><a href="about.html">About</a></li>
-                                        <li class="active-link"><a href="contactPage.aspx">Contact</a></li>
+                                        <li class="active-link"><a href="contact.html">Contact</a></li>
                                         <li class="d-lg-block d-none"><a href="#"><i class="ti-menu"></i></a></li>
                                     </ul>
 

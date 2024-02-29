@@ -460,7 +460,7 @@ h2.main-heading {
 }
 
 .deployment-section {
-    padding: 10px 0 20px;
+    padding: 20px 0 20px;
 }
 .grey-bg{
     background-color:#eee;
@@ -1029,9 +1029,10 @@ section.news-section {
 }
  #carouselVideoExample {
     background-color: #292929;
+    
  }
 .carousel-caption {
-    top: 40%;
+    top: 30%;
     left: 10%;
     padding: 20px;
     opacity: 1;
@@ -1044,22 +1045,22 @@ section.news-section {
 .carousel-caption p {
     font-weight: 900;
     color: #fff;
-    font-size: 30px;
-    text-shadow: 1px -2px 7px #2f2f2f;
+    font-size: 22px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 .carousel-caption p span{
     font-weight: 900;
     color: #fff;
-    font-size: 50px;
-    text-shadow: 1px -2px 7px #2f2f2f;
+    font-size: 48px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 span.carousel-control-prev-icon,span.carousel-control-next-icon {
     opacity: 0;
 }
 .carousel-indicators [data-bs-target] {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
 }
 
@@ -1091,3 +1092,20 @@ span.carousel-control-prev-icon,span.carousel-control-next-icon {
 .bg-news .content h3 {
     font-size: 20px;
 }
+
+.grey-part{
+        display: block;
+        background: #292929;
+        height: 40px;
+        width: 200%;
+        bottom: -20px;
+        position: absolute;
+        transition:  0.2s ease;
+    }
+
+    .carousel-indicators{
+        /* padding:  0; */
+        padding: 0 0 25px 0;
+        position: fixed;
+        bottom: 0;
+    }

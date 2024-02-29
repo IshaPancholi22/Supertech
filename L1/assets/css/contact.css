@@ -321,6 +321,9 @@ form .dropdown-option {
     color: #52b348 !important;
     font-size:20px !important;
 }
+.third-section iframe{
+    height: -webkit-fill-available;
+}
 .third-section p {
     margin-bottom: 0px;
     color: #e0dede;
@@ -339,7 +342,7 @@ hr{
 .right-section{
     padding: 25px 30px 80px 30px;
     background-color: #333132;
-    margin-top:27px;
+    margin-top:0px;
 }
 .fifth-part {
     background-color: #52b348;

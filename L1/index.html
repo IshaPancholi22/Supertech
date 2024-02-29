@@ -90,7 +90,7 @@
                         <div class="loader-line-mask">
                             <div class="loader-line"></div>
                         </div> -->
-                    <img src="assets/images/preloader.gif" alt="">
+                    <img src="assets/images/logo/site-logo.jpg" style="max-width: 100px;" alt="">
                 </div>
             </div>
         </div>
@@ -149,7 +149,7 @@
                                         <li><a href="technology-expertise.html">Technology + Expertise</a></li>
                                         <li><a href="sustainability.html">Sustainability</a></li>
                                         <li><a href="about.html">About</a></li>
-                                        <li><a href="contactPage.aspx">Contact</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
                                         <li class="d-lg-block d-none"><a href="#"><i class="ti-menu"></i></a></li>
                                     </ul>
 
@@ -1020,7 +1020,7 @@
                             <div class="content-box-contact">
                                 <h4>Need help to complete a project?</h4>
                                 <p>We will engineer the fabric for you.</p>
-                                <a class="get-btn" href="contactPage.aspx"> Get in Touch! </a>
+                                <a class="get-btn" href="contact.html"> Get in Touch! </a>
                             </div>
                         </div>
                     </div>
@@ -1146,7 +1146,7 @@
                                 <div class="content-box-contact">
                                     <h4>Need help to complete a project?</h4>
                                     <p>We will engineer the fabric for you.</p>
-                                    <a class="get-btn" href="contactPage.aspx"> Get in Touch! </a>
+                                    <a class="get-btn" href="contact.html"> Get in Touch! </a>
                                 </div>
                             </div>
                         </div>
@@ -1163,7 +1163,7 @@
                         </p>
                     </div>
                     <div class="col-lg-3 col-12">
-                        <a class="get-btn" href="contactPage.aspx"> Contact Us</a>
+                        <a class="get-btn" href="contact.html"> Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -1518,76 +1518,7 @@
         );
         wow.init();
     </script>
-    <!-- <script>
-        $(function () {
-            var slideWrapper = $(".main-slider"),
-                lazyCounter = 0;
-
-            function playPauseVideo(slick, control) {
-                var currentSlide, slideType, startTime, video;
-
-                currentSlide = slick.find(".slick-current");
-                slideType = currentSlide.attr("class").split(" ")[1];
-                startTime = currentSlide.data("video-start");
-
-                if (slideType === "video") {
-                    video = currentSlide.children("video").get(0);
-                    if (video != null) {
-                        if (control === "play") {
-                            video.play();
-                        } else {
-                            video.pause();
-                        }
-                    }
-                }
-            }
-
-            slideWrapper.on('init', function (event, slick) {
-                var currentSlide, video;
-
-                currentSlide = $(slick.$slider).find('.slick-current');
-                video = currentSlide.find('video').get(0);
-
-                if (video) {
-                    video.onended = function () {
-                        setTimeout(function () {
-                            slick.slick('slickNext');
-                        }, video.duration * 1000); // Delay autoplay until video ends
-                    };
-                }
-            });
-
-            slideWrapper.on("beforeChange", function (event, slick) {
-                slick = $(slick.$slider);
-                playPauseVideo(slick, "pause");
-            });
-
-            slideWrapper.on("afterChange", function (event, slick) {
-                slick = $(slick.$slider);
-                playPauseVideo(slick, "play");
-            });
-
-            slideWrapper.on("lazyLoaded", function (event, slick, image, imageSource) {
-                lazyCounter++;
-                console.log(lazyCounter);
-                if (lazyCounter === lazyImages.length) {
-                    lazyImages.addClass('show');
-                    slideWrapper.slick("slickPlay");
-                }
-            });
-
-            slideWrapper.slick({
-                autoplay: false, // Enable autoplay
-                autoplaySpeed: 4000,
-                lazyLoad: "progressive",
-                speed: 600,
-                arrows: false,
-                dots: true,
-                cssEase: "cubic-bezier(0.87, 0.03, 0.41, 0.9)",
-                infinite: true // Enable infinite loop
-            });
-        });
-    </script> -->
+    
 
     <script>
         $(document).ready(function(){
@@ -1608,6 +1539,34 @@
                 }
             });
         });
+    </script>
+
+    <script>
+   $(document).ready(function() {
+    $(window).scroll(function() {
+        var carouselOffset = $('#carouselVideoExample').offset().top;
+        var windowScrollTop = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        var carouselHeight = $('#carouselVideoExample').outerHeight();
+        
+        if (windowScrollTop >= carouselOffset && windowScrollTop <= carouselOffset + carouselHeight - windowHeight) {
+            // Apply fixed position to carousel-indicators
+            $('#carouselVideoExample .carousel-indicators').css({
+                'position': 'fixed',
+                'top': 'auto',
+                'bottom': '0px'
+            });
+        } else {
+            // Apply absolute position to carousel-indicators
+            $('#carouselVideoExample .carousel-indicators').css({
+                'position': 'absolute',
+                'top': 'auto',
+                'bottom': '0px'
+            });
+        }
+    });
+});
+
     </script>
 </body>
 

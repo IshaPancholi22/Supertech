@@ -23,6 +23,14 @@ p{
     font-weight: 700 !important;
     margin: 0;
 }
+.h1-p0-tag{
+    color: #53af47;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 0px 0;
+    font-weight: 700 !important;
+    margin: 0;
+}
 .p-tag {
     font-size: 15px !important;
     font-weight: 500;
@@ -120,7 +128,7 @@ p.para-right {
     color: #fff;
 }
 .section-padding-new{
-    padding: 40px 0;
+    padding: 50px 0;
 }
 .section-padding-two {
     padding: 40px 0 100px 0;
@@ -471,4 +479,8 @@ p.para-right {
 
 .mt-40{
     margin-top:0px;
+}
+
+.first-section-part .logo-width{
+    max-height: 100px;
 }

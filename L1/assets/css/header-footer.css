@@ -203,12 +203,14 @@ section.contact-sec-line {
 }
 
 .wpo-site-header .navigation.sticky-header {
-    padding-top: 24px !important;
-    padding-bottom: 24px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 }
-
+.wpo-site-header .sticky-header .navbar-header .navbar-brand img {
+    max-width: 90px !important;
+}
     .wpo-site-header .navigation.sticky-header .navbar-header {
-        display: none !important;
+        display: block !important;
     }
 
 .wpo-site-header .sticky-on #navbar > ul > li > a {
