@@ -71,6 +71,15 @@
     <link href="assets/slider/css/navstylechange.css">
     <link href="assets/slider/css/noneed.css">
     <link href="assets/slider/rs-plugin/css/settings.css"> -->
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L06HRZ95RW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L06HRZ95RW');
+</script>
 </head>
 
 
@@ -104,7 +113,7 @@
                             <div class="contact-intro">
                                 <ul>
 
-                                    <li><i class="fi flaticon-email"></i>info@supertechfabrics.com</li>
+                                    <li><i class="fi flaticon-email"></i><a href="mailto:info@supertechfabrics.com">info@supertechfabrics.com</a></li>
                                     <li><a href="https://www.linkedin.com/company/supertech-fabrics/" target="_blank"><i class="ti-linkedin"></i></a></li>
                                     <!--<li>
                                         <select class="lang-drpdown">
@@ -163,7 +172,7 @@
         </header>
 
         <!-- Carousel wrapper -->
-        <div id="carouselVideoExample" class="carousel slide carousel-fade" data-bs-ride="carousel" autoplay="true">
+        <div id="carouselVideoExample" class="carousel slide carousel-fade" data-bs-ride="carousel" >
             <!-- Indicators -->
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="0" class="active"
@@ -180,7 +189,6 @@
                     aria-label="Slide 6"></button>
                     <!-- <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="6"
                     aria-label="Slide 7"></button> -->
-                    <div class="grey-part"></div>
             </div>
 
             <!-- Inner -->
@@ -497,7 +505,18 @@
                 <div class="wpo-features-wrapper">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-12 p-0" id="products">
-                           
+                            <!--<div class="wpo-features-item green-sec inner-padding">
+                                <div class="wpo-features-text body-width">
+                                    <h2 class="green-sec-title">About Supertech Fabrics</h2>
+                                    <p>
+                                        Technical textile company specialising in high temperature applications,
+                                        Supertech Fabrics is an integrated
+                                        manufacturing with capacity to handle various coatings and laminations like
+                                        PTFE, Silicon, and specialised polymer
+                                        formulations that help us meet the most demanding applications.
+                                    </p>
+                                </div>
+                            </div>-->
                             <div class="wpo-features-item dark-sec inner-padding">
                                 <div class="wpo-features-text body-width">
                                     <div class="row">
@@ -1544,51 +1563,20 @@
             $('#carouselVideoExample .carousel-indicators').css({
                 'position': 'fixed',
                 'top': 'auto',
-                'bottom': '0px',
-                'padding': ' 0 0 25px 0'
+                'bottom': '0px'
             });
         } else {
             // Apply absolute position to carousel-indicators
             $('#carouselVideoExample .carousel-indicators').css({
                 'position': 'absolute',
                 'top': 'auto',
-                'bottom': '0px',
-                'padding': ' 0'
+                'bottom': '0px'
             });
         }
     });
 });
 
     </script>
-
-<script>
-    $(document).ready(function() {
-    $(window).scroll(function() {
-        var carouselOffset = $('#carouselVideoExample').offset().top;
-        var windowScrollTop = $(window).scrollTop();
-        var windowHeight = $(window).height();
-        var carouselHeight = $('#carouselVideoExample').outerHeight();
-        
-        if (windowScrollTop >= carouselOffset && windowScrollTop <= carouselOffset + carouselHeight - windowHeight) {
-            // Apply smooth display effect when showing the carousel indicators
-            $('#carouselVideoExample .carousel-indicators .grey-part').css({
-                'display': 'block',
-               
-            });
-        } else {
-            // Apply smooth display effect when hiding the carousel indicators
-            $('#carouselVideoExample .carousel-indicators .grey-part').css({
-                'display': 'none',
-            });
-            // Delay the hiding of the indicator to allow the transition to complete
-            setTimeout(function() {
-                $('#carouselVideoExample .carousel-indicators .grey-part').css('display', 'none');
-            }, 10); // Matching the transition duration
-        }
-    });
-});
-
-     </script>
-     </body>
+</body>
 
 </html>

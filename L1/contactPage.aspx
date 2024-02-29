@@ -32,6 +32,15 @@
     <!-- <link href="assets/css/texgurard.css" rel="stylesheet" /> -->
     <link href="assets/fonts/supertech-font.css" rel="stylesheet" />
     <link href="assets/css/header-footer.css" rel="stylesheet" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L06HRZ95RW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L06HRZ95RW');
+</script>
 </head>
 
 <body>
@@ -60,7 +69,7 @@
                             <div class="contact-intro">
                                 <ul>
 
-                                    <li><i class="fi flaticon-email"></i>info@supertechfabrics.com</li>
+                                    <li><i class="fi flaticon-email"></i><a href="mailto:info@supertechfabrics.com">info@supertechfabrics.com</a></li>
                                     <li><a href="https://www.linkedin.com/company/supertech-fabrics/" target="_blank"><i class="ti-linkedin"></i></a></li>
                                     <!--<li>
                                         <select class="lang-drpdown">

@@ -13,7 +13,8 @@
     background: #313131b5;
     margin-bottom: 0;
     /* <!--    font-family: 'Montserrat'; -->   */
-    font-family: "Helvetica";
+    /* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
 }
 .banner-img .banner-text h1 {
     color: #fff;
@@ -30,14 +31,16 @@
     color: #52b348;
     font-weight:700;
     font-size: 30px;
-    /* <!-- font-family: 'Montserrat' !important;--> */  font-family: "Helvetica";
+    /* <!-- font-family: 'Montserrat' !important;--> */  /* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
     padding-bottom: 6px !important;
 }
 p.sustain-para {
     color: #000 !important;
-    /* <!--    font-family: 'Open Sans';-->  --> */font-family: "Helvetica";
-    font-size: 15px;
-    line-height: 25px;
+    /*  --> *//* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
+    font-size: 18px;
+    line-height: 1.3;
     font-weight: 500;
     margin-bottom: 15px !important;
 }
@@ -46,12 +49,13 @@ p.sustain-para {
     font-size: 2.3333333333rem;
     margin: 0em 0 0em !important;
     line-height: 1.3em;
-    /* <!-- font-family: "Cormorant Garamond", serif;-->*/  font-family: "Helvetica";
+    /* <!-- font-family: "Cormorant Garamond", serif;-->*/  /* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
 }
 p.sustain-para-lst {
     color: #000 !important;
-    margin-bottom: -2px !important;
-    /* <!--    font-family: 'Open Sans';-->  --> */font-family: "Helvetica";
+    margin-bottom: 0px !important;
+        font-family: "KievitWeb";
     font-size:22px;
     font-weight:500;
 }
@@ -63,7 +67,8 @@ ul .sustain-para-lsting {
 p.sustain-para-imtxt {
     color: #000 !important;
     margin-bottom: -45px !important;
-    /* <!--    font-family: 'Open Sans';-->  --> */font-family: "Helvetica";
+    /*  --> *//* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
     text-align: center;
     margin-top: -12px;
     font-size: 17px;
@@ -73,8 +78,8 @@ p.sustain-para-imtxt {
 }
 p.sustain-para-bx{
      color: #ececec !important;
-    font-size:15px;
-    line-height: 25px;
+    font-size:18px;
+    line-height: 1.3;
 }
 ::marker {
     color: #000;
@@ -82,15 +87,16 @@ p.sustain-para-bx{
 
 .sustain-tile-bx {
     color: #000;
-    /* <!-- font-family: 'Montserrat' !important;--> */  font-family: "Helvetica";
+    /* <!-- font-family: 'Montserrat' !important;--> */  /* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
     padding-bottom: 6px !important;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
 }
 .sustain-para-imgtext {
     color: #000 !important;
-    font-size: 15PX;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 1.3;
 }
 .section-padding {
     padding: 50px 0px !important;
@@ -109,7 +115,7 @@ p.sustain-para-bx{
     margin: 10px 0;
     padding-left: 10px;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 600;
     border-left: 2px solid #52b348;
     color: #000;
@@ -154,10 +160,10 @@ ul.list-flex li{
         font-size:28px;
     }
     p.sustain-para{
-        font-size:15px;
+        font-size:18px;
     }
     p.sustain-para-lst{
-        font-size:15px;
+        font-size:18px;
     }
     .sustain-tile-bx {
     padding-top: 20px;
@@ -186,7 +192,8 @@ ul.list-flex li{
         width: 100%;
         background: #313131;
         margin-bottom: 0;
-        /*<!--    font-family: 'Montserrat';-->*/  font-family: "Helvetica";
+        /**/  /* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
     }
     .banner-img .banner-text h1 {
         color: #fff;
@@ -208,17 +215,12 @@ ul.list-flex li{
         width: 100%;
         background: #313131;
         margin-bottom: 0;
-        /*<!--    font-family: 'Montserrat';-->*/  font-family: "Helvetica";
+        /**/  /* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
     }
 }
 @media (min-width:990px) and (max-width:1024px){
-    /* .body-width {
-        width: 1060px !important;
-        margin: 0 auto;
-       
-        font-family: "Helvetica";
-        padding: 0 52px 0 25px;
-    } */
+   
     .banner-img .banner-text {
         position: relative;
         bottom: 0;
@@ -227,7 +229,8 @@ ul.list-flex li{
         width: 100%;
         background: #313131;
         margin-bottom: 0;
-        /*<!--    font-family: 'Montserrat';-->*/  font-family: "Helvetica";
+        /**/  /* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
     }
 
 }

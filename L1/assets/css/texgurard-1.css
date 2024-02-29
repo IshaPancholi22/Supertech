@@ -1,5 +1,6 @@
 p{
-  <!--    font-family: 'Open Sans';-->  font-family: "Helvetica";
+   /* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
     font-size: 16px;
     color: #222;
 }
@@ -130,7 +131,8 @@ p {
 }
 .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-content h2, .wpo-section-title h2 {
   left: 0px;
-  <!--    font-family: 'Montserrat';-->  font-family: "Helvetica";
+    /* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
   color: #55b047;
   font-size: 36px;
   padding-top: 0;
@@ -323,6 +325,6 @@ p {
     font-size: 18px;
 }
     .abutParegraph{
-    font-size: 15px !important;
+    font-size: 18px !important;
 }
 }

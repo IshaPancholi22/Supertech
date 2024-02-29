@@ -247,14 +247,15 @@ form .dropdown-option {
 }
 
 .contact-left-content h4{
-    /*<!-- font-family: 'Montserrat' !important;--> */  font-family: "Helvetica";
+    /*<!-- font-family: 'Montserrat' !important;--> */  /* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
     color: #fff;
-    font-size: 20px;
+    font-size: 21px;
 }
 .contact-right-content a{
     color: #fff;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 21px;
     border: 1px solid #fff;
     padding: 10px 24px;
     letter-spacing: 2px;
@@ -265,7 +266,8 @@ form .dropdown-option {
     display: block;
 }
 .custom-font-size{
-    font-size:15px;
+    font-size:18px;
+    line-height: 1.3;
 }
 
 .text-right{
@@ -286,20 +288,22 @@ form .dropdown-option {
 }
 
 .second-section h2{
-    /*<!-- font-family: 'Montserrat' !important;--> */  font-family: "Helvetica";
+    /*<!-- font-family: 'Montserrat' !important;--> */  /* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
 }
 .second-section p{
-    /*<!-- font-family: 'Montserrat' !important;--> */  font-family: "Helvetica";
+    /*<!-- font-family: 'Montserrat' !important;--> */  /* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
     font-weight:500;
-    letter-spacing:1.4px;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 1.3;
     color:#000;
     margin: 0;
 }
 
 .second-section h2{
-    /*<!-- font-family: 'Montserrat' !important;--> */  font-family: "Helvetica";
+    /*<!-- font-family: 'Montserrat' !important;--> */  /* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
     color: #52b348;
     font-weight: 700;
     font-size: 30px;
@@ -313,13 +317,21 @@ form .dropdown-option {
     margin-top:40px;
 }
 
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
 .third-section h1,h2,h3,h4,h5{
-    /*<!-- font-family: 'Montserrat' !important;--> */  font-family: "Helvetica";
+    /*<!-- font-family: 'Montserrat' !important;--> */  /* font-family: "Helvetica"; */
+        font-family: "KievitWeb";
 }
 
 .third-section h3{
     color: #52b348 !important;
     font-size:20px !important;
+    font-weight: 700;
 }
 .third-section iframe{
     height: -webkit-fill-available;
@@ -328,25 +340,34 @@ form .dropdown-option {
     margin-bottom: 0px;
     color: #e0dede;
     font-size: 17px;
-    font-weight: 200;
-    /*<!--    font-family: 'Open Sans';--> */  font-family: "Helvetica";
+    font-weight: 400;
+        font-family: "KievitWeb";
 }
 
 hr{
     width:19%;
     height:2px !important;
-    margin: 30px 0px;
+    margin: 15px 0px;
     color:#fff;
     opacity:1;
 }
+
+.third-section a {
+ color: #e0dede;
+}
+.third-section a:hover {
+    color: #aba9a9;
+   }
 .right-section{
-    padding: 25px 30px 80px 30px;
+    padding: 15px 30px;
+    /* padding: 25px 30px 80px 30px; */
     background-color: #333132;
     margin-top:0px;
 }
 .fifth-part {
     background-color: #52b348;
-    padding: 35px 0;
+    padding: 20px 0;
+    /* padding: 35px 0; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -411,7 +432,7 @@ hr{
 .contact-right-content a:hover {
     color: #303539;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 21px;
     border: 1px solid #303539;
     padding: 10px 38px;
     letter-spacing: 2px;
