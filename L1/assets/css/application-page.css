@@ -444,3 +444,7 @@ header .wpo-site-header #navbar > ul > li:last-of-type a{
 .app-sec-new{
     padding-bottom:70px ;
 }
+
+.content-tab p{
+    color: #000;
+}
