@@ -80,6 +80,136 @@
 
         gtag('config', 'G-L06HRZ95RW');
     </script>
+
+<style>
+
+    .preloader-wrap {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0; 
+      bottom: 0;
+      background: rgba(0,0,0,1);
+      z-index : 99999; 
+    }
+    
+    .percentage {
+      z-index: 100;
+      border: 1px solid #ccc;
+      text-align:center;
+      color: #fff;
+      line-height: 30px;
+      font-size : 15px;
+    }
+    
+    .loader,
+    .percentage{
+      height: 30px;
+      max-width: 500px; 
+      border: 2px solid #69AF23;
+      border-radius: 20px;
+      font-weight: 300;
+      position: absolute; 
+      top: 0; 
+      bottom: 0; 
+      left: 0; 
+      right: 0;
+      margin : auto; 
+    }
+    .loader:after,
+    .percentage:after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    
+    .trackbar {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      color: #fff;
+      text-align: center;
+      line-height: 30px;
+      overflow: hidden;
+      position: relative;
+      opacity: 0.99;
+    }
+    
+    .loadbar {
+      width: 0%;
+      height: 100%;
+      background: repeating-linear-gradient(
+      45deg, 
+        #008737, 
+        #008737 10px, 
+        #69AF23 10px,
+        #69AF23 20px
+      ); /* Stripes Background Gradient */
+      box-shadow: 0px 0px 14px 1px #008737; 
+      position: absolute;
+      top: 0;
+      left: 0;
+      animation: flicker 5s infinite;
+      overflow: hidden;
+    }
+    
+    .glow {
+      width: 0%;
+      height: 0%;
+      border-radius: 20px;
+      box-shadow: 0px 0px 60px 10px #008737;
+      position: absolute;
+      bottom: -5px;
+      animation: animation 5s infinite;
+    }
+    
+    @keyframes animation {
+      10% {
+        opacity: 0.9;
+      }
+      30% {
+        opacity: 0.86;
+      }
+      60% {
+        opacity: 0.8;
+      }
+      80% {
+        opacity: 0.75;
+      }
+    }
+    
+    .wrap { 
+      background-image : url(http://wallpaperfx.com/view_image/little-girls-1600x900-wallpaper-5569.jpg);
+      background-position: left top; 
+      background-repeat: no-repeat; 
+      -webkit-background-size: cover; 
+      -moz-background-size: cover; 
+      -o-background-size: cover; 
+      background-size: cover; 
+      width: 100%; 
+      height: 100%; 
+      position: relative;  
+      z-index : 1; 
+    }
+    
+    .copyrights { 
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      font-size: 14px;
+      color: #fff;
+      display: block;
+    }
+    
+    .copyrights a { color: orange; text-decoration: none; }
+    .copyrights a:hover { color : #fff; text-decoration: underline; }
+               
+            </style>
+
 </head>
 
 
@@ -91,19 +221,27 @@
     <div class="page-wrapper">
 
         <!-- <div class="body-width"> --body-width-->
-        <!-- start preloader -->
-        <div class="preloader">
-            <div class="vertical-centered-box">
-                <div class="content">
-                    <!-- <div class="loader-circle"></div>
-                        <div class="loader-line-mask">
-                            <div class="loader-line"></div>
-                        </div> -->
-                    <img src="assets/images/logo/site-logo.jpg" style="max-width: 100px;" alt="">
-                </div>
+   <!-- start preloader -->
+    <!-- <div class="preloader">
+        <div class="vertical-centered-box">
+            <div class="content">
+                
+                <img src="assets/images/preloader.gif" alt="">
             </div>
         </div>
-        <!-- end preloader -->
+    </div> -->
+    <div class="preloader-wrap">
+        <img src="assets/images/logo/site-logo.jpg" style="max-width: 100px; margin-top: -12%;" alt="">
+        <div class="percentage" id="precent"></div>
+        <div class="loader">
+           
+          <div class="trackbar">
+            <div class="loadbar"></div>
+          </div>
+          <div class="glow"></div>
+        </div>
+      </div>
+    <!-- end preloader -->
         <!-- Start header -->
         <header id="header" class="home-header container-fluid p-0">
             <div class="topbar">
@@ -1701,52 +1839,54 @@
 </script> -->
 
 <script>
-    function animateValue(obj, start, end, duration, decimal = false) {
-        let startTimestamp = null;
-        const step = (timestamp) => {
-            if (!startTimestamp) startTimestamp = timestamp;
-            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-            const value = progress * (end - start) + start;
-            obj.innerHTML = decimal ? parseFloat(value.toFixed(1)) : Math.floor(value);
-            if (progress < 1) {
-                window.requestAnimationFrame(step);
-            }
-        };
-        window.requestAnimationFrame(step);
-    }
+    var width = 100,
+    perfData = window.performance.timing, // The PerformanceTiming interface represents timing-related performance information for the given page.
+    EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
+    time = parseInt((EstimatedTime/1000)%60)*100;
 
-    // Function to handle intersection changes
-    function handleIntersection(entries, observer) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                // Trigger your animation here
-                const obj = document.getElementById("value");
-                animateValue(obj, 0, 2, 1000);
+// Loadbar Animation
+$(".loadbar").animate({
+  width: width + "%"
+}, time);
 
-                const obj2 = document.getElementById("value2");
-                animateValue(obj2, 0, 500, 3000);
+// Loadbar Glow Animation
+$(".glow").animate({
+  width: width + "%"
+}, time);
 
-                const obj3 = document.getElementById("value3");
-                animateValue(obj3, 0, 15, 3000);
+// Percentage Increment Animation
+var PercentageID = $("#precent"),
+		start = 0,
+		end = 100,
+		durataion = time;
+		animateValue(PercentageID, start, end, durataion);
+		
+function animateValue(id, start, end, duration) {
+  
+	var range = end - start,
+      current = start,
+      increment = end > start? 1 : -1,
+      stepTime = Math.abs(Math.floor(duration / range)),
+      obj = $(id);
+    
+	var timer = setInterval(function() {
+		current += increment;
+		$(obj).text(current + "%");
+      //obj.innerHTML = current;
+		if (current == end) {
+			clearInterval(timer);
+		}
+	}, stepTime);
+}
 
-                const obj4 = document.getElementById("value4");
-                animateValue(obj4, 0, 100, 3000); // Enable decimal formatting for obj4
+// Fading Out Loadbar on Finised
+setTimeout(function(){
+  $('.preloader-wrap').fadeOut(300);
+}, time);
 
-                // Unobserve the target after animation is triggered
-                observer.unobserve(entry.target);
-            }
-        });
-    }
-
-    // Create an intersection observer instance
-    const observer = new IntersectionObserver(handleIntersection);
-
-    // Find the target element
-    const target = document.getElementById("counter-secc");
-
-    // Observe the target element
-    observer.observe(target);
 </script>
+
+
 
  
 </body>

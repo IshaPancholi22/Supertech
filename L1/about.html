@@ -45,39 +45,38 @@
 </head>
 
 <body>
-
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <iframe width=" 100%" height="300" src="https://www.youtube.com/embed/D0UnqGm_miA?si=EI5Ly6yvyVDVAdVc"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
-        </div>
-        <!-- <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div> -->
+<!-- Video Popup -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content bg-none">
+     
+      <div class="modal-body">
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/NhQTIurGU88?autoplay=1&controls=0&mute=1" title="We at Supertech Fabrics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
+     
     </div>
   </div>
+</div>
   <!-- start page-wrapper -->
   <div class="page-wrapper ">
     <!-- start preloader -->
-    <div class="preloader">
+    <!-- <div class="preloader">
       <div class="vertical-centered-box">
         <div class="content">
-          <!-- <div class="loader-circle"></div>
-            <div class="loader-line-mask">
-              <div class="loader-line"></div>
-            </div> -->
+         
           <img src="assets/images/preloader.gif" alt="" />
         </div>
+      </div>
+    </div> -->
+    <div class="preloader-wrap">
+      <img src="assets/images/logo/site-logo.jpg" style="max-width: 100px; margin-top: -12%;" alt="">
+      <div class="percentage" id="precent"></div>
+      <div class="loader">
+         
+        <div class="trackbar">
+          <div class="loadbar"></div>
+        </div>
+        <div class="glow"></div>
       </div>
     </div>
     <!-- end preloader -->
@@ -157,7 +156,7 @@
           <div class="banner-img">
               <img src="assets/images/about/about-us.jpg" width="100%" class="card-img-bbv" height="100%"/>
               <div class="banner-text">
-                  <h1 class="body-width">Know About Us!</h1>
+                  <h1 class="body-width">Know About Us</h1>
               </div>
           </div>
           
@@ -175,18 +174,23 @@
             </div>
             <div class="wpo-about-content-inner">
               <p class="abutParegraph">
-                Supertech Fabrics Private Limited is a leading manufacturer of high-performance technical textiles for filtration, industrial, protective and specialized applications. Founded by seasoned industry experts, with a focus on innovation and engineering excellence, we develop durable solutions that stand up to demanding environments
+                Supertech Fabrics Pvt. Ltd. is a leading manufacturer of high-performance technical textiles for filtration, industrial, protective and specialized applications. Founded by seasoned industry experts, with a focus on innovation and engineering excellence, we develop durable solutions that stand up to demanding environments.
               </p>
               <p class="abutParegraph">
-                Led by experts and professionals, our unwavering dedication to excellence is reinforced by rigorous R&D, meticulous testing, and cutting-edge engineering. Our state-of-the-art manufacturing plant is combined with our advanced materials testing lab, guarantees that our products continually surpass industry benchmarks.. 
+                Led by experts and professionals, our unwavering dedication to excellence is reinforced by rigorous R&D, meticulous testing, and cutting-edge engineering.Our state-of-the-art manufacturing plant is combined with our advanced materials testing lab, guarantees that our products continually surpass industry benchmarks..
               </p>
               <p class="abutParegraph">
-                Recognizing the critical role technical textiles play across demanding industries, we aim to deliver superior, efficient products that showcase our capabilities in material engineering and manufacturing excellence. Our longstanding reputation is built on providing clients with solutions that maximize performance while exceeding expectations.
+                Recognizing the critical role technical textiles play across demanding industries, we aim to deliver superior, efficient products that showcase our capacity in material engineering and manufacturing excellence. Our longstanding reputation is built on providing clients with solutions that maximize performance while exceeding expectations.
               </p>
             </div>
           </div>
-          <div class="col-lg-5 col-md-5 col-12">
-            <img src="assets/images/about/about-us.jpg"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="col-lg-5 col-md-5 col-12 text-center">
+            <div class="popup-video">
+              <iframe width="100%" height="270" src="https://www.youtube.com/embed/NhQTIurGU88?autoplay=1&controls=0&mute=1" title="We at Supertech Fabrics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             </div>
+           <!-- <a class="get-btn" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">View</a> -->
+          
+        
           </div>
             <!-- <iframe width=" 100%" height="200" src="https://www.youtube.com/embed/D0UnqGm_miA?si=EI5Ly6yvyVDVAdVc"
               title="YouTube video player" frameborder="0"

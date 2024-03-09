@@ -260,8 +260,17 @@ form .dropdown-option {
     padding: 10px 24px;
     letter-spacing: 2px;
 }
+.first-section.banner{
+    background-color: #52b348 !important;
+    padding: 100px;
+    display: block;
+    background-image: url(../images/contact/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .first-section{
-    background-color: #303539 !important;
+    background-color: #52b348 !important;
     padding: 38px;
     display: block;
 }
@@ -282,6 +291,13 @@ form .dropdown-option {
     .contact-left-content{
         padding-left:20px;
     }
+    .pr-lg-0{
+        padding-right: 0;
+    }
+    .pl-lg-0{
+        padding-left: 0;
+    }
+
 }
 .align-items-center{
     align-items:center;
@@ -351,15 +367,55 @@ hr{
     color:#fff;
     opacity:1;
 }
-
-.third-section a {
- color: #e0dede;
+.banner-img {
+    position: relative;
 }
-.third-section a:hover {
-    color: #aba9a9;
-   }
+.banner-img .banner-text {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 10px 100px;
+    width: 100%;
+    background: #313131b5;
+    margin-bottom: 0;
+    /* font-family: "Helvetica"; */
+    font-family: "KievitWeb";
+}
+.banner-img .banner-text h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: -2px -3px 4px black;
+}
+.third-section a {
+ /* color: #e0dede; */
+color: #52b348;
+
+}
+
+a.get-btn {
+    color: #fff;
+    background-color: #52b348;
+    border: 1px solid #52b348;
+    color: #fff;
+    height: auto;
+    font-size: 17px;
+    display: block;
+    width: max-content;
+    padding: 10px 24px;
+    /* border: 1px solid #fff; */
+    border: 1px solid #52b348;
+}
+a.get-btn:hover {
+    padding: 10px 35px;
+    color: #fff;
+    border: 1px solid #52b348;
+    background-color: transparent;
+   
+}
+
 .right-section{
-    padding: 15px 30px;
+    padding: 30px 30px 120px 30px;
     /* padding: 25px 30px 80px 30px; */
     background-color: #333132;
     margin-top:0px;
@@ -384,6 +440,10 @@ hr{
 
 .mt-35{
     margin-top:35px;
+}
+
+.mt-60{
+    margin-top: 60px;
 }
 
 .submit-button a{
@@ -429,7 +489,7 @@ hr{
     }
 }
 
-.contact-right-content a:hover {
+/* .contact-right-content a:hover {
     color: #303539;
     font-weight: 600;
     font-size: 21px;
@@ -437,4 +497,17 @@ hr{
     padding: 10px 38px;
     letter-spacing: 2px;
     background: #fff;
+} */
+
+.contact-right-content a {
+    color: #fff;
+font-size: 21px;
+padding: 10px 24px;
+border: 1px solid #fff;
+}
+.contact-right-content a:hover {
+    color: #fff;
+    padding: 10px 38px;
+    background-color: #474545;
+    border: 1px solid #474545;
 }

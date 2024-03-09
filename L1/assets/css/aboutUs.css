@@ -225,3 +225,48 @@
 .resp-width{
     width: 100%;
 }
+.bg-none{
+    background-color: transparent;
+    background:transparent ;
+    border: 0px;
+    
+}
+.video-click{
+    z-index: 99;
+    position: relative;
+}
+
+.video-click iframe {
+    z-index: 0 !important;
+    position: relative;
+}
+.sticky-header{
+    z-index: 999;
+}
+
+#exampleModal{
+    z-index: 99999;
+    background-color: #0000008e;
+}
+a.get-btn {
+    color: #fff;
+    height: auto;
+    font-size: 21px;
+    display: block;
+    width: max-content;
+    padding: 10px 24px;
+    text-align: center;
+    background-color: #52b348;
+    border: 1px solid #52b348;
+    border: 1px solid #52b348;
+    margin: 0 auto;
+}
+
+    a.get-btn:hover {
+        color: #fff;
+        padding: 10px 38px;
+        background-color: #474545;
+         border: 1px solid #474545;
+        /*background-color: #474545;
+        border: 1px solid #474545;*/
+    }

@@ -91,19 +91,27 @@
     <div class="page-wrapper">
 
         <!-- <div class="body-width"> --body-width-->
-        <!-- start preloader -->
-        <div class="preloader">
-            <div class="vertical-centered-box">
-                <div class="content">
-                    <!-- <div class="loader-circle"></div>
-                        <div class="loader-line-mask">
-                            <div class="loader-line"></div>
-                        </div> -->
-                    <img src="assets/images/logo/site-logo.jpg" style="max-width: 100px;" alt="">
-                </div>
+       <!-- start preloader -->
+    <!-- <div class="preloader">
+        <div class="vertical-centered-box">
+            <div class="content">
+                
+                <img src="assets/images/preloader.gif" alt="">
             </div>
         </div>
-        <!-- end preloader -->
+    </div> -->
+    <div class="preloader-wrap">
+        <img src="assets/images/logo/site-logo.jpg" style="max-width: 100px; margin-top: -12%;" alt="">
+        <div class="percentage" id="precent"></div>
+        <div class="loader">
+           
+          <div class="trackbar">
+            <div class="loadbar"></div>
+          </div>
+          <div class="glow"></div>
+        </div>
+      </div>
+    <!-- end preloader -->
         <!-- Start header -->
         <header id="header" class="home-header container-fluid p-0">
             <div class="topbar">
@@ -174,7 +182,7 @@
         </header>
 
      <!-- Carousel wrapper -->
-<div id="carouselVideoExample" class="carousel slide carousel-fade new" data-bs-ride="carousel" autoplay="true">
+<div id="carouselVideoExample" class="carousel slide carousel-fade new" data-bs-ride="carousel" autoplay="false">
     <!-- Indicators -->
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -192,7 +200,7 @@
             <video class="img-fluid" autoplay loop muted>
                 <source src="assets/images/home_page/videos/banner-1.mp4" type="video/mp4" />
             </video>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-block">
                 <p> <span>Technical Fabrics </span>Creates An <br> <span>Ecosystem </span> For Daily Life</p>
             </div>
         </div>
@@ -201,7 +209,7 @@
             <video class="img-fluid" autoplay loop muted>
                 <source src="assets/images/home_page/videos/banner-2.mp4" type="video/mp4" />
             </video>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-block">
                 <p> <span>Filtering </span>air with <span>99.9%</span> removal<br />efficiency of<span> Dust
                         Pollutants.</span> <br>ASTM D737 and USEPA ETV</p>
             </div>
@@ -211,7 +219,7 @@
             <video class="img-fluid" autoplay loop muted>
                 <source src="assets/images/home_page/videos/banner-3.mp4" type="video/mp4" />
             </video>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-block">
                 <p><span>Industry </span>relies on us for most<br /> <span>Demanding</span> applications</p>
             </div>
         </div>
@@ -221,7 +229,7 @@
                 <source src="assets/images/home_page/videos/banner-4.mp4" type="video/mp4" />
             </video> -->
             <img src="assets/images/home_page/videos/Biogas-Tank.jpg">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-block">
                 <p>Fabrics provide <span>Innovative Solutions</span><br /> towards <span>Sustainable
                         Energy</span></p>
             </div>
@@ -232,7 +240,7 @@
                 <source src="assets/images/home_page/videos/banner-5.mp4" type="video/mp4" />
             </video> -->
             <img src="assets/images/home_page/videos/Ultimate-Heat-Protection.jpg">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-block">
                 <p><span> Ultimate Production </span>against<span> HEAT</span><br /> with EN 11612, ASTM F1506.
                 </p>
             </div>
@@ -242,7 +250,7 @@
             <video class="img-fluid" autoplay loop muted>
                 <source src="assets/images/home_page/videos/banner-6.mp4" type="video/mp4" />
             </video>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-block">
                 <p>Creating <span>Safe Mobility</span><br /> with EN 45545-2</p>
             </div>
         </div>
@@ -1034,7 +1042,7 @@
                         <div class="col-lg-3 p-0 wow fadeInRight animated" data-wow-delay="0.2s"
                             style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
                             <div class="content-box-contact">
-                                <h4>Looking for a right fit for your niche application? </h4>
+                                <h4>Need help with a problem niche?</h4>
                                 <p>We will engineer the solution for you.</p>
                                 <a class="get-btn" href="contact.html"> Let’s talk </a>
                             </div>
@@ -1169,30 +1177,18 @@
                     </div>
         </section>-->
         <!-- end Deployment & use-case section -->
-        <!-- Contact Us section -->
-        <section class="contact-sec-line">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-12">
-                        <p>
-                            <span>For inquiries, </span>we are at your service
-                        </p>
-                    </div>
-                    <div class="col-lg-3 col-12">
-                        <a class="get-btn" href="contact.html"> Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end Contact Us section -->
+        
 
         <section class="news-section">
             <div class="container-fluid">
                 <div class="row events-new">
+                    <div class="deployment-heading-section news-title-green text-center p-3">
+                        <h3>Supertech Fabric Exhibits</h3>
+                    </div>
                     <div class="col-lg-6 col-md-12 col-12 p-0">
                         <div class="news-img right-eve">
-                            <img src="assets/images/home_page/news-events.jpg" class="w-100" />
-                            <p class="text-img">@ FILT EXPO , CHICAGO</p>
+                            <img src="assets/images/home_page/news-events-two.jpg" class="w-100" />
+                            <p class="text-img">@ BOILER EXPO, NAVI MUMBAI</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-12 p-0">
@@ -1262,16 +1258,17 @@
 
                     <!-- Block 1 -->
                     <div class="col-lg-4 col-12">
-                        <a href="#">
+                        <a href="https://medium.com/supertechfabrics/filtration-media-unseen-heroes-in-technical-textiles-ea2175b048bd" target="_blank">
                             <div class="row bg-news">
                                 <div class="col-lg-5 col-12 padding">
-                                    <img src="assets/images/home_page/news-1.jpg" class="w-100" />
+                                   <div>
+                                    <img src="assets/images/home_page/blog-1.jpg" class="w-100" />
+                                   </div>
                                 </div>
                                 <div class="col-lg-7 col-12">
                                     <div class="content">
-                                        <h3>Title Here</h3>
-                                        <p>Text Heree...Text Heree...Text Heree...Text Heree...
-                                            Text Heree...Text Heree...
+                                        <h3>Advanced Filtration Media </h3>
+                                        <p>In the world of technical textiles, there exists an often-overlooked yet indispensable thread that weaves together efficiency, innovation, and sustainability — filtration media.
                                         </p>
                                     </div>
                                 </div>
@@ -1280,16 +1277,15 @@
                     </div>
                     <!-- Block 2 -->
                     <div class="col-lg-4 col-12">
-                        <a href="#">
+                        <a href="https://medium.com/supertechfabrics/how-glass-fabric-is-transforming-the-textile-industry-eco-innovation-unleashed-c7bca53bf5af" target="_blank">
                             <div class="row bg-news">
                                 <div class="col-lg-5 col-12 padding">
-                                    <img src="assets/images/home_page/news-2.jpg" class="w-100" />
+                                    <img src="assets/images/home_page/blog-2.jpg" class="w-100" />
                                 </div>
                                 <div class="col-lg-7 col-12">
                                     <div class="content">
-                                        <h3>Title Here</h3>
-                                        <p>Text Heree...Text Heree...Text Heree...Text Heree...
-                                            Text Heree...Text Heree...
+                                        <h3>Redefining Glass Fabric </h3>
+                                        <p>Over the years, technical textiles have played a vital role in the textile industry. However, in recent years, there has been a growing interest in viable alternatives.
                                         </p>
                                     </div>
                                 </div>
@@ -1298,24 +1294,23 @@
                     </div>
                     <!-- Block 3 -->
                     <div class="col-lg-4 col-12">
-                        <a href="#">
+                        <a href="https://medium.com/supertechfabrics/impact-of-the-cement-industry-on-the-environment-and-the-solutions-supertech-fabrics-136280a3ed0b" target="_blank">
                             <div class="row bg-news">
                                 <div class="col-lg-5 col-12 padding">
-                                    <img src="assets/images/home_page/news-3.jpg" class="w-100" />
+                                    <img src="assets/images/home_page/blog-3.jpg" class="w-100" />
                                 </div>
                                 <div class="col-lg-7 col-12">
                                     <div class="content">
-                                        <h3>Title Here</h3>
-                                        <p>Text Heree...Text Heree...Text Heree...Text Heree...
-                                            Text Heree...Text Heree...
+                                        <h3>Impact of the cement industry</h3>
+                                        <p>SuperTech Fabrics is a second-generation industry amalgam of glass, Teflon, pharmaceutical and chemical companies have come together with a vision for  Indian industries.
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-12 mt-5 text-center">
-                        <a class="get-btn" href="#"> Read More </a>
+                    <div class="col-lg-12 col-md-12 col-12 mt-5 text-center d-flex justify-content-center">
+                        <a class="get-btn" href="https://medium.com/supertechfabrics" target="_blank"> Read More </a>
                     </div>
                 </div>
                 <!-- </div>
@@ -1323,6 +1318,23 @@
             </div>
     </div>
     </section>
+
+    <!-- Contact Us section -->
+    <section class="contact-sec-line">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-12">
+                    <p>
+                        Connect with an <span> Application Expert  </span>
+                    </p>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <a class="get-btn" href="contact.html"> Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Contact Us section -->
 
     <!-- <section class="news-section">
             <div class="container-fluid">
